@@ -1,70 +1,37 @@
-Y.use('node', 'node-load', function(Y) {
+/**
+ * A basic JavaScript file that refreshes the Squarespace ImageLoader. For more
+ * information about writing custom JavaScript on a Squarespace developer site
+ * visit the link below.
+ * @see http://developers.squarespace.com/custom-javascript/
+ *
+ * This script wrapped in a Immediately-Invoked Function Expression (IIFE) to
+ * prevent variables from leaking onto the global scope. For more information
+ * on IIFE visit the link below.
+ * @see http://en.wikipedia.org/wiki/Immediately-invoked_function_expression
+ */
+(function() {
+  'use strict';
 
-	Y.on('domready', function() {
-		devlin();
-		resizeLogo();
+  // Stop the script if the user is on an old browser.
+  // Browser support: http://caniuse.com/#search=queryselectorall
+  if (!document.querySelectorAll) {
+    return;
+  }
 
-		Y.on(['windowresize','load'], function() {
-			if (Y.one('.primary-image img')) { ImageLoader.load(Y.one('.primary-image img')); }
-			resizeLogo();
-		});
-	});
+  /**
+   * Loads all images on the page using Squarespace's Responsive ImageLoader.
+   *
+   * @method loadImages
+   * @see http://developers.squarespace.com/using-the-imageloader/
+   */
+  function loadAllImages() {
+    var images = document.querySelectorAll('img[data-src]' );
 
-	function resizeLogo() {
-		var siteTitleImg = Y.one('.site-title img');
-		if (siteTitleImg) {
-			var siteTitleImgWidth = siteTitleImg.get('clientWidth');
-			var siteTitleWidth = Y.one('.site-title').get('clientWidth');
-		}
+    for (var i = 0; i < images.length; i++) {
+      ImageLoader.load(images[i]);
+    }
+  }
 
-		if (siteTitleImg && (siteTitleImgWidth > siteTitleWidth)) {
-			siteTitleImg.setStyles({
-				'maxWidth' : '100%',
-				'height' : 'auto'
-			});
-		}
-	}
-
-	var devlin = function() {
-
-		if (Y.config.win.innerWidth > 640) {
-
-			/* Set folder */
-
-			Y.all('.folder-wrapper').each(function(hf) {
-				hf.on('hover', function() {
-					hf.all('.folder-links-wrapper').setStyle('minWidth', hf.get('clientWidth'));
-				});
-			});
-
-			/* Compensate for tall sidebars */
-
-			if ( Y.one('body.collection-layout-left-sidebar') || Y.one('body.collection-layout-right-sidebar') ) {
-				var sidebarHeight = Y.one('#sidebar').getComputedStyle('height');
-				Y.one('#content').setStyle('minHeight', sidebarHeight);
-			}
-
-		} else {
-
-			/* Set mobile nav */
-
-			if(Y.one('.show-nav')){
-				var mn = Y.one('.mobile-nav');
-
-				mn.one('.show-nav').on('click', function(){
-					mn.toggleClass('show');
-				});
-
-				mn.all('.folder-wrapper').each(function(mf) {
-
-					mf.one('> a').on('click', function(){
-						mf.toggleClass('show');
-					});
-				});				
-			}
-
-		}
-
-	};
-
-});
+  // The event subscription that reloads images on resize.
+  document.addEventListener('resize', loadAllImages);
+}());

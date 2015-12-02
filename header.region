@@ -33,5 +33,5 @@
         {.end}
 
         <!--Main navigation.-->
-        <squarespace:navigation navigationId="mainNav" template="navigation" />
+        <squarespace:navigation navigationId="primaryNav" template="navigation-primary" />
       </header>

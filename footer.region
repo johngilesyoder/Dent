@@ -2,7 +2,7 @@
       <footer id="footer" class="footer">
         <squarespace:block-field id="footerBlocks" columns="12" />
         <!--Main navigation.-->
-        <squarespace:navigation navigationId="footerNav" template="navigation" />
+        <squarespace:navigation navigationId="footerNav" template="navigation-footer" />
       </footer>
 
     </div>

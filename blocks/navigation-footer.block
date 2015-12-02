@@ -1,8 +1,8 @@
-<nav id="main-navigation" class="main-navigation" data-content-field="navigation-mainNav">
+<nav id="footer-navigation" class="footer-navigation" data-content-field="navigation-footerNav">
   <ul class="main-navigation-list">
     {.repeated section items}
 
-        <li class="main-navigation-item {.section active} active-link{.end}{.if folderActive} active-folder{.end}">
+        <li class="footer-navigation-item {.section active} active-link{.end}{.if folderActive} active-folder{.end}">
 
           {.folder?}
 
@@ -27,7 +27,7 @@
                   <!--EXTERNAL LINK IN A FOLDER-->
 
                   {.section externalLink}
-                    <li class="main-navigation-dropdown">
+                    <li class="footer-navigation-dropdown">
                       <a href="{url}"{.section newWindow} target="_blank"{.end}>
                         {title}
                       </a>

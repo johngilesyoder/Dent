@@ -33,7 +33,7 @@
         {.end}
 
         <!--Main navigation.-->
-        <squarespace:navigation navigationId="mainNav" template="navigation" />
+        <squarespace:navigation navigationId="mainNav" template="navigation-primary" />
       </header>
 
       <!--Content injection point.-->

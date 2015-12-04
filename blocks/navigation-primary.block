@@ -1,4 +1,4 @@
-<nav id="primary-navigation" class="navbar navbar-default" data-content-field="navigation-mainNav">
+<nav id="primaryNav" class="navbar navbar-default" data-content-field="navigation-mainNav">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -11,6 +11,7 @@
       {.section website}
         <a class="navbar-brand" href="#">{siteTitle}</a>
       {.end}
+      <span class="phone-number">{contactPhoneNumber}</span>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

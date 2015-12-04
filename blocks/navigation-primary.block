@@ -10,8 +10,9 @@
       </button>
       {.section website}
         <a class="navbar-brand" href="#">{siteTitle}</a>
+        <span class="navbar-phone">{contactPhoneNumber}</span>
       {.end}
-      <span class="phone-number">{contactPhoneNumber}</span>
+      
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

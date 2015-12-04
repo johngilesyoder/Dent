@@ -11,9 +11,7 @@
       {.section website}
         <a class="navbar-brand" href="#">{siteTitle}</a>
       {.end}
-      {.section websiteSettings}
-        <span class="navbar-phone">{contactPhoneNumber}</span>
-      {.end}
+      <span class="navbar-phone">{websiteSettings.contactPhoneNumber}</span>
       
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->

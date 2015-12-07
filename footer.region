@@ -38,8 +38,10 @@
           </div>
           <div class="row">
             <div class="col-md-11 col-md-offset-1">
-              © 2015 Dent Asset Management.  All Rights Reserved.
-              <squarespace:navigation navigationId="footerNav" template="navigation-footer" />
+              <div class="footer-company">
+                © 2015 Dent Asset Management.  All Rights Reserved.
+                <squarespace:navigation navigationId="footerNav" template="navigation-footer" />
+              </div>
             </div>
           </div>
         </div>

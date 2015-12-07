@@ -6905,6 +6905,19 @@ button.close {
   position: relative;
   top: 1px;
 }
+.site-footer .footer-company {
+  line-height: 18px;
+  font-size: 12px;
+  margin-top: 40px;
+}
+.site-footer .footer-company ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.site-footer .footer-company ul li {
+  display: inline-block;
+}
 html,
 body {
   height: 100%;

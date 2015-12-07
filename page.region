@@ -16,7 +16,7 @@
     </div>
     <div class="callout-right">
       <a href="/contact-us/" class="btn btn-primary btn-callout">Contact us now</a>
-      or call us at (225) 922-9955
+      or call us at <strong>{websiteSettings.contactPhoneNumber}</strong>
     </div>
   </div>
 </div>

@@ -3120,26 +3120,26 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #fff;
-  background-color: #599B2C;
-  border-color: #4e8726;
+  background-color: #E87641;
+  border-color: #e5662a;
 }
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #427321;
-  border-color: #15240a;
+  background-color: #db581b;
+  border-color: #803310;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #427321;
-  border-color: #325719;
+  background-color: #db581b;
+  border-color: #bc4b17;
 }
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: #427321;
-  border-color: #325719;
+  background-color: #db581b;
+  border-color: #bc4b17;
 }
 .btn-primary:active:hover,
 .btn-primary.active:hover,
@@ -3151,8 +3151,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active.focus,
 .open > .dropdown-toggle.btn-primary.focus {
   color: #fff;
-  background-color: #325719;
-  border-color: #15240a;
+  background-color: #bc4b17;
+  border-color: #803310;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -3177,11 +3177,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #599B2C;
-  border-color: #4e8726;
+  background-color: #E87641;
+  border-color: #e5662a;
 }
 .btn-primary .badge {
-  color: #599B2C;
+  color: #E87641;
   background-color: #fff;
 }
 .btn-success {
@@ -6780,9 +6780,16 @@ button.close {
   border: 0;
   background: transparent;
 }
+.btn-primary {
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 600;
+}
 .contact-callout {
   background: #f8e5dc;
   border-radius: 8px;
+  color: #593C2E;
+  font-size: 24px;
 }
 .contact-callout:before,
 .contact-callout:after {
@@ -6809,6 +6816,22 @@ button.close {
   padding: 15px;
   float: left;
   width: 20%;
+}
+.contact-callout .callout-right .btn-callout {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.contact-callout .callout-right .callout-phone {
+  font-size: 14px;
+}
+.contact-callout .callout-right .callout-phone:before {
+  content: '';
+  background-image: url('/assets/icon-phone-orange.svg');
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
 }
 .container-fluid {
   padding: 0 30px;
@@ -6950,7 +6973,7 @@ body {
   text-transform: uppercase;
 }
 .page-content {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 body {
   border-top-color: #81BF58;

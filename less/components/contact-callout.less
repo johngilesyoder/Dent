@@ -4,6 +4,8 @@
 .contact-callout {
   background: #f8e5dc;
   border-radius: 8px;
+  color: #593C2E;
+  font-size: 24px;
   .clearfix();
   .callout-left {
     padding: 30px;
@@ -14,5 +16,21 @@
     padding: 15px;
     float: left;
     width: 20%;
+    .btn-callout {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .callout-phone {
+      font-size: 14px;
+      &:before {
+        content: '';
+        background-image: url('/assets/icon-phone-orange.svg');
+        width: 17px;
+        height: 17px;
+        display: inline-block;
+        margin-right: 5px;
+        vertical-align: middle;
+      }
+    }
   }
 }

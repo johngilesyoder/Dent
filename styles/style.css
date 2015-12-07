@@ -6873,6 +6873,9 @@ button.close {
   padding: 50px 0;
   font-size: 13px;
 }
+.site-footer address {
+  margin-bottom: 5px;
+}
 .site-header {
   border-top: 4px solid #68B833;
   margin-bottom: 80px;

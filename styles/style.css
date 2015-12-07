@@ -6924,10 +6924,10 @@ button.close {
 .site-header .navbar-collapse .navbar-nav .contact-us.active a {
   border-color: #222222;
 }
-.site-header {
+.site-header.navbar-inverse {
   border-top-color: #81BF58;
 }
-.site-header .navbar-header .navbar-brand .site-logo {
+.site-header.navbar-inverse .navbar-header .navbar-brand .site-logo {
   background-image: url('/assets/site-logo-inverted.svg');
 }
 .error404 {

@@ -1,15 +1,15 @@
 <ul class="nav navbar-nav navbar-right">
   {.repeated section items}
-    <li class="{collection.navigationTitle|slugify}{.section active} active{.end}{.if folderActive} active{.end}">
+    <li class="{.section active} active{.end}{.if folderActive} active{.end}">
       {.folder?}
         <!--FOLDER-->
-        <a class="dropdown-toggle" data-toggle="dropdown" href="{collection.fullUrl}">{collection.navigationTitle} <b class="caret"></b></a>
+        <a class="{collection.navigationTitle|slugify} dropdown-toggle" data-toggle="dropdown" href="{collection.fullUrl}">{collection.navigationTitle} <b class="caret"></b></a>
         <ul class="dropdown-menu">
           {.repeated section items}
             <!--COLLECTION IN A FOLDER-->
             {.collection?}
-            <li class="{collection.navigationTitle|slugify}{.section active} active{.end}">
-              <a href="{collection.fullUrl}">
+            <li class="{.section active} active{.end}">
+              <a href="{collection.fullUrl}" class="{collection.navigationTitle|slugify}">
                 {collection.navigationTitle}
               </a>
             </li>
@@ -17,7 +17,7 @@
             <!--EXTERNAL LINK IN A FOLDER-->
             {.section externalLink}
             <li>
-              <a href="{url}"{.section newWindow} target="_blank"{.end}>
+              <a class="external-link" href="{url}"{.section newWindow} target="_blank"{.end}>
                 {title}
               </a>
             </li>
@@ -31,7 +31,7 @@
         {.end}
         <!--EXTERNAL LINK-->
         {.section externalLink}
-          <a href="{url}"{.section newWindow} target="_blank"{.end}>
+          <a class="external-link" href="{url}"{.section newWindow} target="_blank"{.end}>
             {title}
           </a>
         {.end}

@@ -6808,7 +6808,8 @@ button.close {
   clear: both;
 }
 .contact-callout .callout-left {
-  padding: 30px;
+  padding: 0 30px;
+  line-height: 100px;
   float: left;
   width: 75%;
 }

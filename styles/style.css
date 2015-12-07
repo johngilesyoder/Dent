@@ -6949,6 +6949,9 @@ body {
   letter-spacing: 10px;
   text-transform: uppercase;
 }
+.page-content {
+  margin-bottom: 80px;
+}
 body {
   border-top-color: #81BF58;
 }

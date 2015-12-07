@@ -4,7 +4,9 @@
       <!--Content injection point.-->
       <main id="content" class="content" role="main" data-content-field="main-content">
         <h1 class="page-title">{collection.title}</h1>
-        {squarespace.main-content}
+        <div class="page-content">
+          {squarespace.main-content}
+        </div>
       </main>
     </div>
   </div>

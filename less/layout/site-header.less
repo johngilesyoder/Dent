@@ -38,10 +38,27 @@ body {
           font-weight: 600;
         }
       }
-      .contact-us {
+      li:nth-child(4) {
         a {
-          border: 2px solid @link-color;
-          //line-height: 
+          &:before {
+            content: '';
+            display: inline-block;
+            background-image: url('assets/icon-lock-green.svg');
+            width: 9px;
+            height: 12px;
+            margin-right: 8px;
+            vertical-align: middle;
+          }
+        }
+      }
+      .contact-us {
+        height: 95px;
+        line-height: 95px;
+        padding: 27px 0 27px 15px;
+        a {
+          border: 1px solid #599b2c;
+          line-height: 38px;
+          padding: 0 10px;
         }   
       }
     }

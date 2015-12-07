@@ -1,4 +1,10 @@
-<!--Content injection point.-->
-<main id="content" class="content" role="main" data-content-field="main-content">
- {squarespace.main-content}
-</main>
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <!--Content injection point.-->
+      <main id="content" class="content" role="main" data-content-field="main-content">
+       {squarespace.main-content}
+      </main>
+    </div>
+  </div>
+</div>

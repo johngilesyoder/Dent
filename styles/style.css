@@ -6810,12 +6810,13 @@ button.close {
 .contact-callout .callout-left {
   padding: 30px;
   float: left;
-  width: 80%;
+  width: 75%;
 }
 .contact-callout .callout-right {
   padding: 15px;
   float: left;
-  width: 20%;
+  width: 25%;
+  text-align: center;
 }
 .contact-callout .callout-right .btn-callout {
   width: 100%;
@@ -6823,6 +6824,7 @@ button.close {
 }
 .contact-callout .callout-right .callout-phone {
   font-size: 14px;
+  line-height: 1em;
 }
 .contact-callout .callout-right .callout-phone:before {
   content: '';

@@ -31,8 +31,27 @@
           {.end}
 
         {.end}
-        <!--Site phone.-->
-        {.section websiteSettings}{.if contactPhoneNumber}<span rel="tel" class="site-phone">{contactPhoneNumber}</span>{.end}{.end}
-        <!--Main navigation.-->
-        <squarespace:navigation navigationId="primaryNav" template="navigation-primary" />
+
+        <nav id="primaryNav" class="navbar navbar-default" data-content-field="navigation-mainNav">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">{website.siteTitle}</a>
+              <!-- Company phone -->
+              <span rel="tel" class="site-phone">{websiteSettings.contactPhoneNumber}</span>
+              
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <!--Main navigation.-->
+              <squarespace:navigation navigationId="primaryNav" template="navigation-primary" />
+            </div>
+          </div>
+        </nav>
       </header>

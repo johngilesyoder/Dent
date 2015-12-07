@@ -8,10 +8,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      {.section website}
-        <a class="navbar-brand" href="#">{siteTitle}</a>
-      {.end}
-      <span class="navbar-phone">{websiteSettings.contactPhoneNumber}</span>
+      <a class="navbar-brand" href="#">{website.siteTitle}</a>
+      {.section websiteSettings}{.if contactPhoneNumber}<span rel="tel" class="site-phone">{contactPhoneNumber}</span>{.end}{.end}
       
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->

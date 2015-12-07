@@ -6873,8 +6873,25 @@ button.close {
   padding: 50px 0;
   font-size: 13px;
 }
+.site-footer a {
+  color: #fff;
+}
 .site-footer address {
   margin-bottom: 5px;
+}
+.site-footer .download-pdf {
+  text-align: right;
+  font-size: 14px;
+}
+.site-footer .download-pdf a:before {
+  content: '';
+  display: inline-block;
+  width: 17px;
+  height: 21px;
+  background-image: url('/assets/icon-pdf-white.svg');
+  background-size: 17px;
+  background-repeat: no-repeat;
+  margin-right: 5px;
 }
 .site-header {
   border-top: 4px solid #68B833;

@@ -29,7 +29,9 @@
               by appointment.
             </div>
             <div class="col-md-5">
-              <a href="/assets/2015-ADV2-Combined.pdf">Download our SEC ADV Disclosure Brochure</a>
+              <div class="download-pdf">
+                <a href="/assets/2015-ADV2-Combined.pdf">Download our SEC ADV Disclosure Brochure</a>
+              </div>
             </div>
           </div>
           <div class="row">

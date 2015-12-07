@@ -6784,6 +6784,22 @@ button.close {
   background: #f8e5dc;
   border-radius: 8px;
 }
+.contact-callout:before,
+.contact-callout:after {
+  content: " ";
+  display: table;
+}
+.contact-callout:after {
+  clear: both;
+}
+.contact-callout:before,
+.contact-callout:after {
+  content: " ";
+  display: table;
+}
+.contact-callout:after {
+  clear: both;
+}
 .contact-callout .callout-left {
   padding: 30px;
   float: left;

@@ -6913,10 +6913,10 @@ body {
   }
 }
 .page-title {
-  font-family: "Avenir Next", "Avenir", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  margin: 0 0 30px;
+  font-weight: 400;
+  font-size: 42px;
+  margin: 0 0 40px;
+  letter-spacing: 10px;
 }
 body {
   border-top-color: #81BF58;

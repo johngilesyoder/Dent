@@ -1,3 +1,5 @@
+
+
       <!--Footer with open block field.-->
       <footer id="footer" class="site-footer">
         <div class="container">
@@ -36,8 +38,8 @@
           </div>
           <div class="row">
             <div class="col-md-11 col-md-offset-1">
-              <!--Main navigation.-->
-              <!-- <squarespace:navigation navigationId="footerNav" template="navigation-footer" /> -->
+              © 2015 Dent Asset Management.  All Rights Reserved.
+              <squarespace:navigation navigationId="footerNav" template="navigation-footer" />
             </div>
           </div>
         </div>

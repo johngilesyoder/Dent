@@ -6905,6 +6905,41 @@ button.close {
   position: relative;
   top: 1px;
 }
+html,
+body {
+  height: 100%;
+}
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -400px;
+}
+#push {
+  height: 400px;
+}
+.site-footer {
+  z-index: 1;
+  position: relative;
+  height: 400px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (max-width: 767px) {
+  #wrap {
+    margin: 0 auto -339px;
+  }
+  #push {
+    height: 339px;
+  }
+  .site-footer {
+    height: 339px;
+  }
+  .site-footer {
+    padding: 100px 0;
+  }
+}
 .site-header {
   border-top: 4px solid #68B833;
   margin-bottom: 80px;

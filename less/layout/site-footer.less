@@ -40,6 +40,39 @@
   }
 }
 
+
+// Sticky Footer
+// -----------------------------------------------------------------
+
+// Instructions:
+// 1. Add #push div below the page content variable
+// 2. Wrap all content above the footer in a #wrap div
+// 3. Set the @footerHeight variable to the height of the footer
+
+@footerHeight-lg: 400px; // Set the height of the footer here
+@footerHeight-md: 339px; // Set the height of the footer here
+@footerHeight-sm: 370px; // Set the height of the footer here
+
+html,
+body {
+  height: 100%;
+}
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -@footerHeight-lg;
+}
+#push {
+  height: @footerHeight-lg;
+}
+.site-footer {
+  z-index: 1;
+  position: relative;
+  height: @footerHeight-lg;
+  .box-sizing(border-box);
+}
+
 // Media Queries
 // --------------------------------------------------
 
@@ -53,7 +86,23 @@
 @media (min-width: 768px) and (max-width: 991px) {}
 
 // Up to tablet
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+
+  #wrap {
+    margin: 0 auto -@footerHeight-md;
+  }
+  #push {
+    height: @footerHeight-md;
+  }
+  .site-footer {
+    height: @footerHeight-md;
+  }
+
+  .site-footer {
+    padding: 100px 0;
+  }
+  
+}
 
 // Up to landscape phone
 @media (max-width: 480px) {}

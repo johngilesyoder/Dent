@@ -1,4 +1,4 @@
-<ul class="nav navbar-nav">
+<ul class="nav navbar-nav navbar-right">
   {.repeated section items}
     <li class="{.section active} active{.end}{.if folderActive} active{.end}">
       {.folder?}

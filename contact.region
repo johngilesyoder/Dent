@@ -10,14 +10,5 @@
       </main>
     </div>
   </div>
-  <div class="contact-callout">
-    <div class="callout-left">
-      See how we can assist you in achieving your financial goals.
-    </div>
-    <div class="callout-right">
-      <a href="/contact-us/" class="btn btn-primary btn-callout">Contact us now</a>
-      <span class="callout-phone">or call us at <strong>{websiteSettings.contactPhoneNumber}</strong></span>
-    </div>
-  </div>
   <div id="push"></div>
 </div>

@@ -11,11 +11,7 @@
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
     <header id="header">
-      {.if collection.homepage}
-        <nav id="primaryNav" class="navbar navbar-inverse site-header" data-content-field="navigation-mainNav">
-      {.or}
-        <nav id="primaryNav" class="navbar navbar-default site-header" data-content-field="navigation-mainNav">
-      {.end}
+      <nav id="primaryNav" class="navbar navbar-default site-header" data-content-field="navigation-mainNav">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">

@@ -6878,6 +6878,7 @@ button.close {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
+  font-size: 13px;
 }
 @media (min-width: 992px) {
   .site-footer .sqs-row .markdown-block {

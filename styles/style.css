@@ -6896,7 +6896,7 @@ button.close {
 @media (min-width: 992px) {
   .site-footer .sqs-row .html-block {
     float: left;
-    width: 33.33333333%;
+    width: 50%;
   }
 }
 .site-header {

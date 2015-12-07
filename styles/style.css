@@ -6881,7 +6881,7 @@ button.close {
 @media (min-width: 992px) {
   .site-footer .sqs-row .markdown-block {
     float: left;
-    width: 25%;
+    width: 16.66666667%;
   }
 }
 .site-footer .sqs-row .html-block {
@@ -6893,7 +6893,7 @@ button.close {
 @media (min-width: 992px) {
   .site-footer .sqs-row .html-block {
     float: left;
-    width: 25%;
+    width: 33.33333333%;
   }
 }
 .site-header {

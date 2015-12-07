@@ -6936,6 +6936,16 @@ button.close {
 .site-header.navbar-inverse .navbar-collapse .navbar-nav li:nth-child(4) a:before {
   background-image: url('assets/icon-lock-white.svg');
 }
+.site-header.navbar-inverse .navbar-collapse .navbar-nav .contact-us a {
+  border-color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+}
+.site-header.navbar-inverse .navbar-collapse .navbar-nav .contact-us a:hover {
+  background: rgba(0, 0, 0, 0.75);
+}
+.site-header.navbar-inverse .navbar-collapse .navbar-nav .contact-us.active a {
+  border-color: #222222;
+}
 .error404 {
   background: #fff;
   padding-top: 100px;

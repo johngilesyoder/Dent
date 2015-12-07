@@ -6814,6 +6814,12 @@ button.close {
 body {
   border-top: 4px solid #68B833;
 }
+.site-header {
+  margin-bottom: 80px;
+}
+.site-header .navbar-header {
+  margin-bottom: 0;
+}
 .site-header .navbar-header .navbar-brand {
   padding: 22px 30px 22px 15px;
 }

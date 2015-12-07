@@ -6930,15 +6930,15 @@ body {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -400px;
+  margin: 0 auto -258px;
 }
 #push {
-  height: 400px;
+  height: 258px;
 }
 .site-footer {
   z-index: 1;
   position: relative;
-  height: 400px;
+  height: 258px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;

@@ -31,7 +31,7 @@
           {.end}
 
         {.end}
-
+        {.section websiteSettings}{.if contactPhoneNumber}<span rel="tel" class="site-phone">{contactPhoneNumber}</span>{.end}{.end}
         <!--Main navigation.-->
         <squarespace:navigation navigationId="primaryNav" template="navigation-primary" />
       </header>

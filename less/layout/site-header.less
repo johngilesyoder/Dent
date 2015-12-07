@@ -1,8 +1,33 @@
 // site-header.less
 // -----------------------------------------------------------------
 
+body {
+  border-top: 4px solid #68B833;
+}
 .site-header {
-  
+  .navbar-header {
+    .navbar-brand {
+      .site-logo {
+        background-image: url('/assets/site-logo.svg');
+        display: inline-block;
+        width: 319px;
+        height: 51px;
+        background-size: 319px;
+      }
+    }
+    .site-phone {
+      font-size: 14px;
+      &:before {
+        content: '';
+        background-image: url('/assets/icon-phone-orange.svg');
+        width: 17px;
+        height: 17px;
+        display: inline-block;
+        margin-right: 5px;
+        vertical-align: middle;
+      }
+    }
+  }
 }
 
 

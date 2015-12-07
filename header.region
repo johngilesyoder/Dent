@@ -6,10 +6,12 @@
 
     <!--Include sqs scripts, meta tags, and user content from the code injection tab.-->
     {squarespace-headers}
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
-    <header id="header" class="header">
-      <nav id="primaryNav" class="navbar navbar-default" data-content-field="navigation-mainNav">
+    <header id="header">
+      <nav id="primaryNav" class="navbar navbar-default site-header" data-content-field="navigation-mainNav">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -19,6 +21,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
+            <!-- Company logo -->
             <a class="navbar-brand" href="#">
                <span class="site-logo">{siteTitle}</span>
             </a>

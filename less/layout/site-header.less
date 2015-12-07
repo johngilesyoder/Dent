@@ -7,6 +7,7 @@ body {
 .site-header {
   .navbar-header {
     .navbar-brand {
+      padding: 22px 30px 22px 15px;
       .site-logo {
         background-image: url('/assets/site-logo.svg');
         display: inline-block;
@@ -17,6 +18,8 @@ body {
     }
     .site-phone {
       font-size: 14px;
+      line-height: 95px;
+      float: left;
       &:before {
         content: '';
         background-image: url('/assets/icon-phone-orange.svg');
@@ -25,6 +28,15 @@ body {
         display: inline-block;
         margin-right: 5px;
         vertical-align: middle;
+      }
+    }
+  }
+  .navbar-collapse {
+    .navbar {
+      & > li {
+        a {
+          font-weight: 600;
+        }
       }
     }
   }

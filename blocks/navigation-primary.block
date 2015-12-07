@@ -1,6 +1,6 @@
 <ul class="nav navbar-nav navbar-right">
   {.repeated section items}
-    <li class="{.section active} active{.end}{.if folderActive} active{.end}">
+    <li class="{collection.navigationTitle|slugify}{.section active} active{.end}{.if folderActive} active{.end}">
       {.folder?}
         <!--FOLDER-->
         <a class="dropdown-toggle" data-toggle="dropdown" href="{collection.fullUrl}">{collection.navigationTitle} <b class="caret"></b></a>
@@ -8,7 +8,7 @@
           {.repeated section items}
             <!--COLLECTION IN A FOLDER-->
             {.collection?}
-            <li class="{.section active} active{.end}">
+            <li class="{collection.navigationTitle|slugify}{.section active} active{.end}">
               <a href="{collection.fullUrl}">
                 {collection.navigationTitle}
               </a>

@@ -26,7 +26,7 @@
                <span class="site-logo">{siteTitle}</span>
             </a>
             <!-- Company phone -->
-            <span rel="tel" class="site-phone" data-content-field="site-title">{websiteSettings.contactPhoneNumber}</span>
+            <span rel="tel" class="site-phone">{websiteSettings.contactPhoneNumber}</span>
           </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="primary-nav-collapse">

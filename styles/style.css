@@ -6814,6 +6814,9 @@ button.close {
 body {
   border-top: 4px solid #68B833;
 }
+.site-header .navbar-header .navbar-brand {
+  padding: 22px 30px 22px 15px;
+}
 .site-header .navbar-header .navbar-brand .site-logo {
   background-image: url('/assets/site-logo.svg');
   display: inline-block;
@@ -6823,6 +6826,8 @@ body {
 }
 .site-header .navbar-header .site-phone {
   font-size: 14px;
+  line-height: 95px;
+  float: left;
 }
 .site-header .navbar-header .site-phone:before {
   content: '';
@@ -6832,6 +6837,9 @@ body {
   display: inline-block;
   margin-right: 5px;
   vertical-align: middle;
+}
+.site-header .navbar-collapse .navbar > li a {
+  font-weight: 600;
 }
 .error404 {
   background: #fff;

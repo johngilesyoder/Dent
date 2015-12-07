@@ -6874,7 +6874,11 @@ button.close {
   font-size: 13px;
 }
 .site-footer a {
-  color: #fff;
+  color: #ffffff;
+  text-decoration: underline;
+}
+.site-footer a:hover {
+  color: rgba(255, 255, 255, 0.8);
 }
 .site-footer address {
   margin-bottom: 5px;
@@ -6892,6 +6896,9 @@ button.close {
   background-size: 17px;
   background-repeat: no-repeat;
   margin-right: 5px;
+  vertical-align: middle;
+  position: relative;
+  top: 3px;
 }
 .site-header {
   border-top: 4px solid #68B833;

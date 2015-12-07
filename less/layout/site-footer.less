@@ -7,7 +7,11 @@
   padding: 50px 0;
   font-size: 13px;
   a {
-    color: #fff;
+    color: rgba(255,255,255,1);
+    text-decoration: underline;
+    &:hover {
+      color: rgba(255,255,255,.8);
+    }
   }
   address {
     margin-bottom: 5px;
@@ -26,6 +30,8 @@
         background-repeat: no-repeat;
         margin-right: 5px;
         vertical-align: middle;
+        position: relative;
+        top: 3px;
       }
     }
   }

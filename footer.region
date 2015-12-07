@@ -1,8 +1,10 @@
       <!--Footer with open block field.-->
       <footer id="footer" class="footer">
-        <squarespace:block-field id="footerBlocks" columns="12" />
-        <!--Main navigation.-->
-        <squarespace:navigation navigationId="footerNav" template="navigation-footer" />
+        <div class="container">
+          <squarespace:block-field id="footerBlocks" columns="12" />
+          <!--Main navigation.-->
+          <!-- <squarespace:navigation navigationId="footerNav" template="navigation-footer" /> -->
+        </div>
       </footer>
 
     </div>

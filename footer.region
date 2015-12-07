@@ -5,8 +5,33 @@
             <div class="col-md-1">
               LOGO
             </div>
-            <div class="col-md-11">
-              <squarespace:block-field id="footerBlocks" columns="12" />
+            <div class="col-md-2">
+              **Virginia**
+              <address>
+              752 Walker Rd, Ste. E <br>
+              Great Falls, VA 22066
+              </address>
+              T: (703) 552-2525   
+              F: (225) 612-6644
+            </div>
+            <div class="col-md-2">
+              **Louisiana**
+              <address>
+              301 Main St, Ste. 1502 <br>
+              Baton Rouge, LA 70801
+              </address>
+              T: (225) 922-9955   
+              F: (225) 612-6644Mon-Fri 9am-5pm
+            </div>
+            <div class="col-md-2">
+              After hours and weekends by appointment.
+            </div>
+            <div class="col-md-6">
+              <a href="/assets/2015-ADV2-Combined.pdf">Download our SEC ADV Disclosure Brochure</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-11 col-md-offset-1">
               <!--Main navigation.-->
               <!-- <squarespace:navigation navigationId="footerNav" template="navigation-footer" /> -->
             </div>

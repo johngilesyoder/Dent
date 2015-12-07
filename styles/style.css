@@ -6871,34 +6871,7 @@ button.close {
   background: #222222;
   color: #fff;
   padding: 50px 0;
-}
-.site-footer .sqs-row .markdown-block {
-  padding: 0;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
   font-size: 13px;
-}
-@media (min-width: 992px) {
-  .site-footer .sqs-row .markdown-block {
-    float: left;
-    width: 16.66666667%;
-  }
-}
-.site-footer .sqs-row .html-block {
-  padding: 0;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  text-align: right;
-}
-@media (min-width: 992px) {
-  .site-footer .sqs-row .html-block {
-    float: left;
-    width: 50%;
-  }
 }
 .site-header {
   border-top: 4px solid #68B833;

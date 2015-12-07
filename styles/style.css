@@ -6838,8 +6838,11 @@ body {
   margin-right: 5px;
   vertical-align: middle;
 }
-.site-header .navbar-collapse .navbar > li a {
+.site-header .navbar-collapse .navbar-nav > li a {
   font-weight: 600;
+}
+.site-header .navbar-collapse .navbar-nav .contact-us a {
+  border: 2px solid #599B2C;
 }
 .error404 {
   background: #fff;

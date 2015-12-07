@@ -6867,6 +6867,10 @@ button.close {
     padding: 0 15px;
   }
 }
+.site-footer {
+  background: #222222;
+  color: #fff;
+}
 .site-header {
   border-top: 4px solid #68B833;
   margin-bottom: 80px;

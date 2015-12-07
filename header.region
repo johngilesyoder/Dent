@@ -10,29 +10,30 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
-    <header id="header">
-      <nav id="primaryNav" class="navbar navbar-default site-header" data-content-field="navigation-mainNav">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#primary-nav-collapse" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <!-- Company logo -->
-            <a class="navbar-brand" href="/">
-               <span class="site-logo">{siteTitle}</span>
-            </a>
-            <!-- Company phone -->
-            <span rel="tel" class="site-phone">{websiteSettings.contactPhoneNumber}</span>
+    <div id="wrap">
+      <header id="header">
+        <nav id="primaryNav" class="navbar navbar-default site-header" data-content-field="navigation-mainNav">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#primary-nav-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!-- Company logo -->
+              <a class="navbar-brand" href="/">
+                 <span class="site-logo">{siteTitle}</span>
+              </a>
+              <!-- Company phone -->
+              <span rel="tel" class="site-phone">{websiteSettings.contactPhoneNumber}</span>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="primary-nav-collapse">
+              <!--Main navigation.-->
+              <squarespace:navigation navigationId="primaryNav" data-content-field="navigation-mainNav" template="navigation-primary" />
+            </div>
           </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="primary-nav-collapse">
-            <!--Main navigation.-->
-            <squarespace:navigation navigationId="primaryNav" data-content-field="navigation-mainNav" template="navigation-primary" />
-          </div>
-        </div>
-      </nav>
-    </header>
+        </nav>
+      </header>

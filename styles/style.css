@@ -6873,6 +6873,7 @@ button.close {
   padding: 50px 0;
 }
 .site-footer .sqs-row .markdown-block {
+  padding: 0;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -6885,6 +6886,7 @@ button.close {
   }
 }
 .site-footer .sqs-row .html-block {
+  padding: 0;
   position: relative;
   min-height: 1px;
   padding-left: 15px;

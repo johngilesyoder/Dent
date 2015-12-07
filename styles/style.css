@@ -6910,6 +6910,9 @@ button.close {
   font-size: 12px;
   margin-top: 40px;
 }
+.site-footer .footer-company nav {
+  display: inline-block;
+}
 .site-footer .footer-company ul {
   list-style-type: none;
   margin: 0;

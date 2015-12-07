@@ -6880,6 +6880,11 @@ button.close {
 .site-footer a:hover {
   color: rgba(255, 255, 255, 0.8);
 }
+.site-footer .footer-logo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .site-footer address {
   margin-bottom: 5px;
 }

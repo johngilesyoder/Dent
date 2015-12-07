@@ -6872,6 +6872,30 @@ button.close {
   color: #fff;
   padding: 50px 0;
 }
+.site-footer .sqs-row .markdown-block {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  .site-footer .sqs-row .markdown-block {
+    float: left;
+    width: 25%;
+  }
+}
+.site-footer .sqs-row .html-block {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  .site-footer .sqs-row .html-block {
+    float: left;
+    width: 25%;
+  }
+}
 .site-header {
   border-top: 4px solid #68B833;
   margin-bottom: 80px;

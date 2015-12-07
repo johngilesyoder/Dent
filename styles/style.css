@@ -6867,10 +6867,8 @@ button.close {
     padding: 0 15px;
   }
 }
-body {
-  border-top: 4px solid #68B833;
-}
 .site-header {
+  border-top: 4px solid #68B833;
   margin-bottom: 80px;
 }
 .site-header .navbar-header {
@@ -6925,6 +6923,12 @@ body {
 }
 .site-header .navbar-collapse .navbar-nav .contact-us.active a {
   border-color: #222222;
+}
+.site-header {
+  border-top-color: #81BF58;
+}
+.site-header .navbar-header .navbar-brand .site-logo {
+  background-image: url('/assets/site-logo-inverted.svg');
 }
 .error404 {
   background: #fff;
@@ -6981,10 +6985,4 @@ body {
 }
 .page-content {
   margin-bottom: 60px;
-}
-body {
-  border-top-color: #81BF58;
-}
-.homepage .site-header .navbar-header .navbar-brand .site-logo {
-  background-image: url('/assets/site-logo-inverted.svg');
 }

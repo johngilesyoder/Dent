@@ -6863,3 +6863,6 @@ button.close {
   font-size: 36px;
   margin: 0 0 30px;
 }
+.homepage .navbar .navbar-brand {
+  background-image: url('/assets/img/site-logo-inverted.svg');
+}

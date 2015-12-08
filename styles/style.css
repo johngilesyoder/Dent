@@ -7100,6 +7100,7 @@ body {
 }
 .collection-layout-contact .location-info {
   font-size: 13px;
+  margin-bottom: 40px;
 }
 .collection-layout-contact .location-info:before,
 .collection-layout-contact .location-info:after {
@@ -7119,6 +7120,22 @@ body {
 }
 .collection-layout-contact .location-info .location-title {
   display: block;
+}
+.collection-layout-contact .location-info .location-title:before,
+.collection-layout-contact .location-info .location-title:after {
+  content: " ";
+  display: table;
+}
+.collection-layout-contact .location-info .location-title:after {
+  clear: both;
+}
+.collection-layout-contact .location-info .location-title:before,
+.collection-layout-contact .location-info .location-title:after {
+  content: " ";
+  display: table;
+}
+.collection-layout-contact .location-info .location-title:after {
+  clear: both;
 }
 .collection-layout-contact .location-info address,
 .collection-layout-contact .location-info .phone-numbers {

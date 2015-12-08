@@ -7117,7 +7117,7 @@ body {
 .collection-layout-contact .location-info:after {
   clear: both;
 }
-.collection-layout-contact .location-info strong {
+.collection-layout-contact .location-info .location-title {
   display: block;
 }
 .collection-layout-contact .location-info address,
@@ -7126,5 +7126,5 @@ body {
   width: 50%;
 }
 .collection-layout-contact .location-info address {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }

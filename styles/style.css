@@ -7019,6 +7019,9 @@ body {
 .site-header.navbar-inverse {
   border-top-color: #81BF58;
   color: #fff;
+  margin-bottom: 0;
+  position: absolute;
+  top: 0;
 }
 .site-header.navbar-inverse .navbar-header .navbar-brand .site-logo {
   background-image: url('/assets/site-logo-inverted.svg');

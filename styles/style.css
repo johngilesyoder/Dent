@@ -7237,6 +7237,9 @@ body {
   color: #fff;
   border-bottom-color: #81BF58;
 }
+.homepage .home-process .section-title {
+  color: #9BE66A;
+}
 .collection-layout-contact .location-info {
   font-size: 13px;
   margin-bottom: 40px;

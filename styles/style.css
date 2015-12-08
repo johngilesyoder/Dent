@@ -7207,6 +7207,10 @@ body {
   text-transform: uppercase;
   color: #599B2C;
   font-weight: 500;
+  font-style: normal;
+}
+.homepage .home-quote .quote blockquote footer cite {
+  font-weight: 600;
 }
 .homepage .home-quote .quote .quote-logo {
   background: #222222;

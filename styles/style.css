@@ -7142,6 +7142,10 @@ body {
   float: left;
   width: 50%;
 }
+.collection-layout-contact .location-info address strong,
+.collection-layout-contact .location-info .phone-numbers strong {
+  margin-right: 4px;
+}
 .collection-layout-contact .location-info address {
   margin-bottom: 10px;
 }

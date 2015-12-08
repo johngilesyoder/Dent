@@ -7240,6 +7240,9 @@ body {
 .homepage .home-process .section-title {
   color: #9BE66A;
 }
+.homepage .home-process .section-actions {
+  margin-top: 40px;
+}
 .collection-layout-contact .location-info {
   font-size: 13px;
   margin-bottom: 40px;

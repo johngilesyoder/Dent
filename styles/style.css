@@ -7002,6 +7002,9 @@ body {
   height: 12px;
   margin-right: 8px;
   vertical-align: middle;
+  position: relative;
+  top: -1px;
+  background-size: 9px;
 }
 .site-header .navbar-collapse .navbar-nav .contact-us {
   height: 95px;

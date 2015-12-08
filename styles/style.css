@@ -7026,7 +7026,7 @@ body {
   width: 100%;
 }
 .site-header.navbar-inverse .navbar-header .navbar-brand .site-logo {
-  background-image: url('/assets/site-logo-inverted.svg');
+  background-image: url('/assets/site-logo-inverted.png');
 }
 .site-header.navbar-inverse .navbar-header .site-phone {
   text-shadow: 0 1px 15px rgba(0, 0, 0, 0.5);

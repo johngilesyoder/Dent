@@ -7197,7 +7197,7 @@ body {
 .homepage .home-quote .quote blockquote {
   border-left: 7px solid #222222;
   background: rgba(255, 255, 255, 0.75);
-  padding: 15px;
+  padding: 20px;
   margin: 0;
 }
 .homepage .home-quote .quote blockquote p {
@@ -7212,7 +7212,6 @@ body {
   font-weight: 500;
   font-style: normal;
   letter-spacing: 2px;
-  margin-bottom: 10px;
 }
 .homepage .home-quote .quote blockquote footer cite {
   font-weight: 600;

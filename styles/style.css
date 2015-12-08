@@ -7098,3 +7098,27 @@ body {
 .page-content {
   margin-bottom: 60px;
 }
+.collection-layout-contact .location-info:before,
+.collection-layout-contact .location-info:after {
+  content: " ";
+  display: table;
+}
+.collection-layout-contact .location-info:after {
+  clear: both;
+}
+.collection-layout-contact .location-info:before,
+.collection-layout-contact .location-info:after {
+  content: " ";
+  display: table;
+}
+.collection-layout-contact .location-info:after {
+  clear: both;
+}
+.collection-layout-contact .location-info strong {
+  display: block;
+}
+.collection-layout-contact .location-info address,
+.collection-layout-contact .location-info .phone-numbers {
+  float: left;
+  width: 50%;
+}

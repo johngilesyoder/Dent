@@ -9,9 +9,17 @@
         </div>
       </div>
       <div class="col-md-4">
-        IN VIRGINIA
-        752 Walker Rd, Ste. E
-        Great Falls, VA 22066
+        <div class="location-info">
+          <strong>IN VIRGINIA</strong>
+          <address>
+            752 Walker Rd, Ste. E<br>
+            Great Falls, VA 22066
+          </address>
+          <div class="phone-numbers">
+            T: (703) 552-2525
+            F: (225) 612-6644
+          </div>
+        </div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3100.830018413003!2d-77.29225688458992!3d38.996375648708664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b636cbe3ff4acd%3A0x9b18b2c6185b874d!2s752+Walker+Rd%2C+Great+Falls%2C+VA+22066!5e0!3m2!1sen!2sus!4v1449533599124" width="100%" height="205" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
     </div>

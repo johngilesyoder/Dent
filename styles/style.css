@@ -7202,6 +7202,7 @@ body {
 }
 .homepage .home-quote .quote blockquote p {
   font-size: 36px;
+  line-height: 42px;
   font-weight: 500;
 }
 .homepage .home-quote .quote blockquote footer {

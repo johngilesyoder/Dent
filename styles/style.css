@@ -7173,6 +7173,10 @@ body {
 }
 .homepage .home-who {
   padding: 75px 0;
+  background-image: url('/assets/who-bg.jpg');
+  background-size: cover;
+  background-position: 70% 0;
+  background-repeat: no-repeat;
 }
 .homepage .home-who .section-actions {
   margin-top: 30px;

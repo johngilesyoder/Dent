@@ -34,6 +34,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/who-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 197266,
+		"inputAbbreviatedPath": "\/assets\/who-bg.jpg",
+		"outputAbbreviatedPath": "\/assets\/who-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/less\/bootstrap\/alerts.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,

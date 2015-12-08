@@ -7103,6 +7103,22 @@ body {
 .page-content {
   margin-bottom: 60px;
 }
+.homepage section .section-title {
+  font-size: 14px;
+  color: #599B2C;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin: 0 0 10px;
+}
+.homepage section .section-title:after {
+  content: '';
+  background-image: url('/assets/logo-mark-green.svg');
+  width: 20px;
+  height: 20px;
+  background-size: 20px;
+  margin-left: 8px;
+}
 .homepage section .section-statement {
   font-size: 60px;
   font-family: 'Adobe Garamond Pro', Garamond, Georgia, "Times New Roman", Times, serif;
@@ -7130,6 +7146,9 @@ body {
   text-align: center;
   width: 850px;
   font-weight: 500;
+}
+.homepage .home-who {
+  padding: 75px 0;
 }
 .collection-layout-contact .location-info {
   font-size: 13px;

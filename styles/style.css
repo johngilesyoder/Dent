@@ -7228,6 +7228,9 @@ body {
 .homepage .home-quote .quote .quote-logo img {
   width: 307px;
 }
+.homepage .home-different {
+  padding: 75px 0;
+}
 .collection-layout-contact .location-info {
   font-size: 13px;
   margin-bottom: 40px;

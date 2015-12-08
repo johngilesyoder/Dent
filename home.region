@@ -33,5 +33,69 @@
       </div>
     </div>
   </section>
+  <section class="home-different">
+    <div class="container">
+      <hgroup>
+        <h2 class="section-title">What makes us different?</h2>
+        <h3 class="section-statement">Does your advisor meet these standards?</h3>
+      </hgroup>
+      <table class="table table-comparison">
+        <tbody>
+          <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th>LOGO</th>
+              <th>Other Advisor</th>
+            </tr>
+          </thead>
+          <tr>
+            <th>Dent is an independent investment advisor registered with the SEC. We have no broker-dealer affiliation.  We work for you.</th>
+            <td>Checkmark</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <th>Dent is an independent investment advisor registered with the SEC. We have no broker-dealer affiliation.  We work for you.</th>
+            <td>Checkmark</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <th>Dent is an independent investment advisor registered with the SEC. We have no broker-dealer affiliation.  We work for you.</th>
+            <td>Checkmark</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <th>Dent is an independent investment advisor registered with the SEC. We have no broker-dealer affiliation.  We work for you.</th>
+            <td>Checkmark</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <th>Dent is an independent investment advisor registered with the SEC. We have no broker-dealer affiliation.  We work for you.</th>
+            <td>Checkmark</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <th>Dent is an independent investment advisor registered with the SEC. We have no broker-dealer affiliation.  We work for you.</th>
+            <td>Checkmark</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <th>Dent is an independent investment advisor registered with the SEC. We have no broker-dealer affiliation.  We work for you.</th>
+            <td>Checkmark</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <th>Dent is an independent investment advisor registered with the SEC. We have no broker-dealer affiliation.  We work for you.</th>
+            <td>Checkmark</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <th>Dent is an independent investment advisor registered with the SEC. We have no broker-dealer affiliation.  We work for you.</th>
+            <td>Checkmark</td>
+            <td>?</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
  <div id="push"></div>
 </main>

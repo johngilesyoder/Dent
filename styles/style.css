@@ -7098,6 +7098,28 @@ body {
 .page-content {
   margin-bottom: 60px;
 }
+.homepage .home-hero {
+  background-color: #666;
+  background-image: url('/assets/hero-bg.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 750px;
+  border-bottom: 4px solid #222222;
+  position: relative;
+}
+.homepage .home-hero h2 {
+  color: #fff;
+  font-family: 'Adobe Garamond Pro', Garamond, Georgia, "Times New Roman", Times, serif;
+  font-size: 60px;
+  margin: 0;
+  line-height: 1em;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  margin-left: -425px;
+  text-align: center;
+  width: 850px;
+}
 .collection-layout-contact .location-info {
   font-size: 13px;
   margin-bottom: 40px;

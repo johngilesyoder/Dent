@@ -7129,6 +7129,22 @@ body {
   font-weight: 500;
   margin: 0 0 25px;
 }
+.homepage section .section-actions .btn-contact {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  padding: 12px 15px;
+}
+.homepage section .section-actions .btn-contact:after {
+  content: '';
+  display: inline-block;
+  width: 13px;
+  height: 21px;
+  background-image: url('/assets/icon-chevron-r-white.svg');
+  background-size: 13px;
+  margin-left: 40px;
+  vertical-align: middle;
+}
 .homepage .home-hero {
   background-color: #666;
   background-image: url('/assets/hero-bg.jpg');
@@ -7154,6 +7170,9 @@ body {
 }
 .homepage .home-who {
   padding: 75px 0;
+}
+.homepage .home-who .section-actions {
+  margin-top: 30px;
 }
 .collection-layout-contact .location-info {
   font-size: 13px;

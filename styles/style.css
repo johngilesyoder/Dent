@@ -7103,6 +7103,9 @@ body {
 .page-content {
   margin-bottom: 60px;
 }
+.homepage section {
+  border-bottom: 4px solid #222222;
+}
 .homepage section .section-title {
   font-size: 14px;
   color: #599B2C;
@@ -7152,7 +7155,6 @@ body {
   background-position: 50% 50%;
   background-size: cover;
   height: 750px;
-  border-bottom: 4px solid #222222;
   position: relative;
 }
 .homepage .home-hero h2 {

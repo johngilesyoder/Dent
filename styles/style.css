@@ -7214,6 +7214,7 @@ body {
 }
 .homepage .home-quote .quote blockquote footer cite {
   font-weight: 600;
+  font-style: normal;
 }
 .homepage .home-quote .quote .quote-logo {
   background: #222222;

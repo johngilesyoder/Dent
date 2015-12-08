@@ -7198,6 +7198,7 @@ body {
   border-left: 7px solid #222222;
   background: rgba(255, 255, 255, 0.75);
   padding: 15px;
+  margin: 0;
 }
 .homepage .home-quote .quote blockquote p {
   font-size: 36px;

@@ -7035,7 +7035,7 @@ body {
   text-shadow: 0 1px 15px rgba(0, 0, 0, 0.5);
 }
 .site-header.navbar-inverse .navbar-collapse .navbar-nav li:nth-child(4) a:before {
-  background-image: url('assets/icon-lock-white.svg');
+  background-image: url('/assets/icon-lock-white.svg');
 }
 .site-header.navbar-inverse .navbar-collapse .navbar-nav .contact-us a {
   border-color: #fff;

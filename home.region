@@ -4,11 +4,23 @@
     <h2 class="hero-statement">Your financial success is an ongoing process — <em>not a product</em>.</h2>
   </section>
   <section class="home-who">
-    <h2 class="section-title">Who we are?</h2>
-    <h3 class="section-statement">Uncommon insight, exceptional capabilities, and innovative thinking working for you.</h2>
-    <p>
-      Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-    </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <h2 class="section-title">Who we are?</h2>
+        </div>
+        <div class="col-md-8">
+          <h3 class="section-statement">Uncommon insight, exceptional capabilities, and innovative thinking working for you.</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+          </p>
+          <div class="section-actions">
+            <a href="/contact-us/" class="btn btn-primary btn-contact">Contact us now</a>
+            <span class="callout-phone">or call us at <strong>{websiteSettings.contactPhoneNumber}</strong></span>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
  {squarespace.main-content}
  <div id="push"></div>

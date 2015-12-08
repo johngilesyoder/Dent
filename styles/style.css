@@ -7103,6 +7103,11 @@ body {
 .page-content {
   margin-bottom: 60px;
 }
+.homepage section .section-statement {
+  font-size: 60px;
+  font-family: 'Adobe Garamond Pro', Garamond, Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+}
 .homepage .home-hero {
   background-color: #666;
   background-image: url('/assets/hero-bg.jpg');
@@ -7124,6 +7129,7 @@ body {
   margin-left: -425px;
   text-align: center;
   width: 850px;
+  font-weight: 500;
 }
 .collection-layout-contact .location-info {
   font-size: 13px;
@@ -7181,4 +7187,5 @@ body {
   background-color: #E87641;
   font-size: 18px;
   letter-spacing: 3px;
+  border-radius: 3px;
 }

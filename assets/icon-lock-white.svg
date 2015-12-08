@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="28px" height="31px" viewBox="0 0 28 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="9px" height="12px" viewBox="0 0 9 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
-    <title>Imported Layers Copy</title>
+    <title>Imported-Layers-Copy</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
-            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-    </defs>
-    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g sketch:type="MSArtboardGroup" transform="translate(-1288.000000, -38.000000)" id="HEADER-Copy" filter="url(#filter-1)" fill="#FFFFFF">
-            <g sketch:type="MSLayerGroup" transform="translate(0.000000, -10.000000)">
-                <g id="PRIMARY-NAV" transform="translate(982.000000, 45.000000)" sketch:type="MSShapeGroup">
-                    <path d="M323.86,16.4 L323.86,14.6 C323.86,12.61504 322.24496,11 320.26,11 C318.27504,11 316.66,12.61504 316.66,14.6 L316.66,16.4 L316,16.4 L316,23 L324.52,23 L324.52,16.4 L323.86,16.4 Z M317.62,14.6 C317.62,13.14432 318.80432,11.96 320.26,11.96 C321.71568,11.96 322.9,13.14432 322.9,14.6 L322.9,16.4 L317.62,16.4 L317.62,14.6 Z" id="Imported-Layers-Copy"></path>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon-lock-white" sketch:type="MSLayerGroup" fill="#FFFFFF">
+            <g id="Home" sketch:type="MSShapeGroup">
+                <g id="HEADER-Copy">
+                    <g id="Group">
+                        <g id="PRIMARY-NAV">
+                            <path d="M7.86,5.4 L7.86,3.6 C7.86,1.61504 6.24496,0 4.26,0 C2.27504,0 0.66,1.61504 0.66,3.6 L0.66,5.4 L0,5.4 L0,12 L8.52,12 L8.52,5.4 L7.86,5.4 L7.86,5.4 Z M1.62,3.6 C1.62,2.14432 2.80432,0.96 4.26,0.96 C5.71568,0.96 6.9,2.14432 6.9,3.6 L6.9,5.4 L1.62,5.4 L1.62,3.6 L1.62,3.6 Z" id="Imported-Layers-Copy"></path>
+                        </g>
+                    </g>
                 </g>
             </g>
         </g>

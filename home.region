@@ -97,5 +97,20 @@
       </table>
     </div>
   </section>
+  <section class="home-process">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <hgroup>
+            <h2 class="section-title">What makes us different?</h2>
+            <h3 class="section-statement">Does your advisor meet these standards?</h3>
+          </hgroup>
+        </div>
+        <div class="col-md-5 col-md-offset-1">
+          NAPKINS
+        </div>
+      </div>
+    </div>
+  </section>
  <div id="push"></div>
 </main>

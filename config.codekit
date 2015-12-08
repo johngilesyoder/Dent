@@ -13,17 +13,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quote-bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 235414,
-		"inputAbbreviatedPath": "\/assets\/quote-bg.jpg",
-		"outputAbbreviatedPath": "\/assets\/quote-bg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/readme.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -52,6 +41,17 @@
 		"initialSize": 34996,
 		"inputAbbreviatedPath": "\/assets\/site-logo-inverted.png",
 		"outputAbbreviatedPath": "\/assets\/site-logo-inverted.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/team-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 242332,
+		"inputAbbreviatedPath": "\/assets\/team-bg.jpg",
+		"outputAbbreviatedPath": "\/assets\/team-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

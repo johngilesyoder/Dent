@@ -7023,6 +7023,7 @@ body {
   position: absolute;
   top: 0;
   z-index: 10;
+  width: 100%;
 }
 .site-header.navbar-inverse .navbar-header .navbar-brand .site-logo {
   background-image: url('/assets/site-logo-inverted.svg');

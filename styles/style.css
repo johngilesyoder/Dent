@@ -7231,6 +7231,11 @@ body {
 .homepage .home-different {
   padding: 75px 0;
 }
+.homepage .home-process {
+  padding: 75px 0;
+  background-color: #444;
+  color: #fff;
+}
 .collection-layout-contact .location-info {
   font-size: 13px;
   margin-bottom: 40px;

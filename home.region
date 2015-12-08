@@ -33,6 +33,5 @@
       </div>
     </div>
   </section>
- {squarespace.main-content}
  <div id="push"></div>
 </main>

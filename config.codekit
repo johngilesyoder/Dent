@@ -23,6 +23,17 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/assets\/site-logo-inverted.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34996,
+		"inputAbbreviatedPath": "\/assets\/site-logo-inverted.png",
+		"outputAbbreviatedPath": "\/assets\/site-logo-inverted.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/less\/bootstrap\/alerts.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,

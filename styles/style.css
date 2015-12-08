@@ -7098,6 +7098,9 @@ body {
 .page-content {
   margin-bottom: 60px;
 }
+.collection-layout-contact .location-info {
+  font-size: 13px;
+}
 .collection-layout-contact .location-info:before,
 .collection-layout-contact .location-info:after {
   content: " ";

@@ -7182,6 +7182,40 @@ body {
 .homepage .home-who .section-actions {
   margin-top: 30px;
 }
+.homepage .home-quote {
+  height: 700px;
+  position: relative;
+  background: #666;
+}
+.homepage .home-quote .quote {
+  position: absolute;
+  top: 50%;
+  margin-top: -205px;
+  right: 25%;
+}
+.homepage .home-quote .quote blockquote {
+  border-left: 7px solid #222222;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 15px;
+}
+.homepage .home-quote .quote blockquote p {
+  font-size: 36px;
+  font-weight: 500;
+}
+.homepage .home-quote .quote blockquote footer {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #599B2C;
+  font-weight: 500;
+}
+.homepage .home-quote .quote .quote-logo {
+  background: #222222;
+  border-left: 7px solid #222222;
+  padding: 8px 15px;
+}
+.homepage .home-quote .quote .quote-logo img {
+  width: 307px;
+}
 .collection-layout-contact .location-info {
   font-size: 13px;
   margin-bottom: 40px;

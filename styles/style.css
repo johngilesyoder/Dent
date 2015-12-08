@@ -7206,10 +7206,10 @@ body {
 .collection-layout-contact .location-info address {
   margin-bottom: 10px;
 }
-.collection-layout-contact .form-button-wrapper .title {
+.collection-layout-contact .form-wrapper .title {
   font-weight: bold;
 }
-.collection-layout-contact .form-button-wrapper .caption {
+.collection-layout-contact .form-wrapper .caption {
   font-weight: normal;
 }
 .collection-layout-contact .form-button-wrapper .button {

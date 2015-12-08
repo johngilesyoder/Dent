@@ -7190,7 +7190,7 @@ body {
 .homepage .home-quote .quote {
   position: absolute;
   top: 50%;
-  margin-top: -205px;
+  margin-top: -290px;
   right: 10%;
   width: 360px;
 }
@@ -7220,7 +7220,7 @@ body {
 .homepage .home-quote .quote .quote-logo {
   background: #222222;
   border-left: 7px solid #222222;
-  padding: 8px 15px;
+  padding: 12px 15px;
 }
 .homepage .home-quote .quote .quote-logo img {
   width: 307px;

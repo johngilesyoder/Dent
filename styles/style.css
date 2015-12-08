@@ -7206,6 +7206,12 @@ body {
 .collection-layout-contact .location-info address {
   margin-bottom: 10px;
 }
+.collection-layout-contact .form-button-wrapper .title {
+  font-weight: bold;
+}
+.collection-layout-contact .form-button-wrapper .caption {
+  font-weight: normal;
+}
 .collection-layout-contact .form-button-wrapper .button {
   width: 100%;
   background-color: #E87641;

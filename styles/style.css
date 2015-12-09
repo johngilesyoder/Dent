@@ -7257,6 +7257,9 @@ body {
   text-align: center;
   vertical-align: middle;
 }
+.homepage .home-different .table-comparison tbody tr td:last-child {
+  border-left: 5px solid #fff;
+}
 .homepage .home-process {
   padding: 75px 0;
   background-color: #444;

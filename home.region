@@ -113,8 +113,8 @@
             <span class="callout-phone">or call us at <strong>{websiteSettings.contactPhoneNumber}</strong></span>
           </div>
         </div>
-        <div class="napkin-carousel">
-          <div class="col-md-5 col-md-offset-1">
+        <div class="col-md-5 col-md-offset-1">
+          <div class="napkin-carousel">
             <div id="carousel-napkins" class="carousel slide" data-ride="carousel" data-interval="3000">
               <!-- Wrapper for slides -->
               <div class="carousel-inner">

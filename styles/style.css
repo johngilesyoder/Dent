@@ -7319,6 +7319,11 @@ body {
   background: #599B2C;
   border-radius: 8px;
   padding: 15px;
+  color: #fff;
+}
+.homepage .home-process .napkin-carousel .caption {
+  font-size: 21px;
+  font-weight: 700;
 }
 .collection-layout-contact .location-info {
   font-size: 13px;

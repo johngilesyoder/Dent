@@ -7238,6 +7238,10 @@ body {
   border-top: 0;
   border-bottom: 0;
 }
+.homepage .home-different .table-comparison tbody tr:first-child th,
+.homepage .home-different .table-comparison tbody tr:first-child td {
+  border-top: 0;
+}
 .homepage .home-process {
   padding: 75px 0;
   background-color: #444;

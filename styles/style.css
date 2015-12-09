@@ -7324,6 +7324,8 @@ body {
 .homepage .home-process .napkin-carousel .caption {
   font-size: 21px;
   font-weight: 700;
+  margin-bottom: 10px;
+  display: block;
 }
 .collection-layout-contact .location-info {
   font-size: 13px;

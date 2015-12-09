@@ -7237,6 +7237,14 @@ body {
 .homepage .home-different .table-comparison thead th {
   border-top: 0;
   border-bottom: 0;
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+.homepage .home-different .table-comparison thead th:nth-child(2),
+.homepage .home-different .table-comparison thead th:nth-child(3) {
+  width: 130px;
 }
 .homepage .home-different .table-comparison tbody tr:first-child th,
 .homepage .home-different .table-comparison tbody tr:first-child td {

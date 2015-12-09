@@ -7152,6 +7152,22 @@ body {
   margin-left: 40px;
   vertical-align: middle;
 }
+.homepage section .section-actions .callout-phone {
+  font-size: 14px;
+  line-height: 95px;
+  float: left;
+}
+.homepage section .section-actions .callout-phone:before {
+  content: '';
+  background-image: url('/assets/icon-phone-orange.svg');
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
 .homepage .home-hero {
   background-color: #666;
   background-image: url('/assets/hero-bg.jpg');

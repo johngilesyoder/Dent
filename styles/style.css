@@ -7251,6 +7251,10 @@ body {
 .homepage .home-different .table-comparison tbody tr th {
   padding-left: 0;
 }
+.homepage .home-different .table-comparison tbody tr td {
+  width: 130px;
+  background-color: #f5f5f5;
+}
 .homepage .home-process {
   padding: 75px 0;
   background-color: #444;

@@ -50,48 +50,48 @@
         <tbody>
           <tr>
             <th>Dent is an independent investment advisor registered with the SEC. We have no broker-dealer affiliation.  We work for you.</th>
-            <td>Checkmark</td>
-            <td>?</td>
+            <td><span>Checkmark</span></td>
+            <td><span>?</span></td>
           </tr>
           <tr>
             <th>We have accepted the legal fiduciary responsibility to put your interest first. Not all advisors are held to this standard.</th>
-            <td>Checkmark</td>
-            <td>?</td>
+            <td><span>Checkmark</span></td>
+            <td><span>?</span></td>
           </tr>
           <tr>
             <th>We do not offer proprietary funds. This avoids a significant conflict of interest.</th>
-            <td>Checkmark</td>
-            <td>?</td>
+            <td><span>Checkmark</span></td>
+            <td><span>?</span></td>
           </tr>
           <tr>
             <th>We coordinate your financial and retirement planning, trust and estate planning, tax planning, investment management, and risk management with our qualified partners.</th>
-            <td>Checkmark</td>
-            <td>?</td>
+            <td><span>Checkmark</span></td>
+            <td><span>?</span></td>
           </tr>
           <tr>
             <th>Our team includes a Certified Financial Planner CFP®, a MBA, and a Chartered Financial Analyst CFA charter holder.</th>
-            <td>Checkmark</td>
-            <td>?</td>
+            <td><span>Checkmark</span></td>
+            <td><span>?</span></td>
           </tr>
           <tr>
             <th>Our team has more than 80 years combined experience in our serving four generations of families.</th>
-            <td>Checkmark</td>
-            <td>?</td>
+            <td><span>Checkmark</span></td>
+            <td><span>?</span></td>
           </tr>
           <tr>
             <th>We respond promptly to your questions.</th>
-            <td>Checkmark</td>
-            <td>?</td>
+            <td><span>Checkmark</span></td>
+            <td><span>?</span></td>
           </tr>
           <tr>
             <th>Our overall fees are equal to, or less than, those of an average mutual fund.</th>
-            <td>Checkmark</td>
-            <td>?</td>
+            <td><span>Checkmark</span></td>
+            <td><span>?</span></td>
           </tr>
           <tr>
             <th>We have a fee-only compensation structure. We are not compensated by commissions.</th>
-            <td>Checkmark</td>
-            <td>?</td>
+            <td><span>Checkmark</span></td>
+            <td><span>?</span></td>
           </tr>
         </tbody>
       </table>

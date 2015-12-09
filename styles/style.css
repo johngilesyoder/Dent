@@ -7242,6 +7242,15 @@ body {
 .homepage .home-different .table-comparison tbody tr:first-child td {
   border-top: 0;
 }
+.homepage .home-different .table-comparison tbody tr th,
+.homepage .home-different .table-comparison tbody tr td {
+  font-weight: 400;
+  border-top-color: #e6e6e6;
+  padding: 15px;
+}
+.homepage .home-different .table-comparison tbody tr th {
+  padding-left: 0;
+}
 .homepage .home-process {
   padding: 75px 0;
   background-color: #444;

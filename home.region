@@ -43,7 +43,7 @@
         <thead>
           <tr>
             <th>&nbsp;</th>
-            <th>LOGO</th>
+            <th><img src="/assets/logo-mark-green.svg"></th>
             <th>Other Advisor</th>
           </tr>
         </thead>

@@ -7241,6 +7241,7 @@ body {
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
+  padding: 15px;
 }
 .homepage .home-different .table-comparison thead th:nth-child(2),
 .homepage .home-different .table-comparison thead th:nth-child(3) {

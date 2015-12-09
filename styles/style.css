@@ -7315,6 +7315,11 @@ body {
 .homepage .home-process .section-actions {
   margin-top: 100px;
 }
+.homepage .home-process .napkin-carousel {
+  background: #599B2C;
+  border-radius: 8px;
+  padding: 15px;
+}
 .collection-layout-contact .location-info {
   font-size: 13px;
   margin-bottom: 40px;

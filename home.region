@@ -113,21 +113,23 @@
             <span class="callout-phone">or call us at <strong>{websiteSettings.contactPhoneNumber}</strong></span>
           </div>
         </div>
-        <div class="col-md-5 col-md-offset-1">
-          <div id="carousel-napkins" class="carousel slide" data-ride="carousel" data-interval="3000">
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-              <div class="item active">
-                <span class="caption">1. Your job</span>
-                <img src="http://placehold.it/432x409">
-              </div>
-              <div class="item">
-                <span class="caption">2. Your job</span>
-                <img src="http://placehold.it/432x409">
-              </div>
-              <div class="item">
-                <span class="caption">3. Your job</span>
-                <img src="http://placehold.it/432x409">
+        <div class="napkin-carousel">
+          <div class="col-md-5 col-md-offset-1">
+            <div id="carousel-napkins" class="carousel slide" data-ride="carousel" data-interval="3000">
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <span class="caption">1. Your job</span>
+                  <img src="http://placehold.it/432x409">
+                </div>
+                <div class="item">
+                  <span class="caption">2. Your job</span>
+                  <img src="http://placehold.it/432x409">
+                </div>
+                <div class="item">
+                  <span class="caption">3. Your job</span>
+                  <img src="http://placehold.it/432x409">
+                </div>
               </div>
             </div>
           </div>

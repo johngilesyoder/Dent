@@ -114,7 +114,29 @@
           </div>
         </div>
         <div class="col-md-5 col-md-offset-1">
-          NAPKINS
+          <div id="carousel-napkins" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <div class="caption">
+                  1. Your job
+                </div>
+                <img src="http://placehold.it/432x409">
+              </div>
+              <div class="item">
+                <div class="caption">
+                  2. Your job
+                </div>
+                <img src="http://placehold.it/432x409">
+              </div>
+              <div class="item">
+                <div class="caption">
+                  3. Your job
+                </div>
+                <img src="http://placehold.it/432x409">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

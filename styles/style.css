@@ -7154,8 +7154,6 @@ body {
 }
 .homepage section .section-actions .callout-phone {
   font-size: 14px;
-  line-height: 95px;
-  float: left;
 }
 .homepage section .section-actions .callout-phone:before {
   content: '';

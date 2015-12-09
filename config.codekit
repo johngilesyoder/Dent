@@ -13,6 +13,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/process-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 197670,
+		"inputAbbreviatedPath": "\/assets\/process-bg.jpg",
+		"outputAbbreviatedPath": "\/assets\/process-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/quote-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

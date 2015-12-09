@@ -7246,6 +7246,9 @@ body {
 .homepage .home-different .table-comparison thead th img {
   height: 30px;
 }
+.homepage .home-different .table-comparison thead th:first-child {
+  padding-right: 30px;
+}
 .homepage .home-different .table-comparison thead th:nth-child(2),
 .homepage .home-different .table-comparison thead th:nth-child(3) {
   width: 130px;
@@ -7266,6 +7269,7 @@ body {
 }
 .homepage .home-different .table-comparison tbody tr th {
   padding-left: 0;
+  padding-right: 30px;
 }
 .homepage .home-different .table-comparison tbody tr td {
   width: 130px;

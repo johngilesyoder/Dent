@@ -7234,6 +7234,10 @@ body {
 .homepage .home-different {
   padding: 75px 0;
 }
+.homepage .home-different .table-comparison thead th {
+  border-top: 0;
+  border-bottom: 0;
+}
 .homepage .home-process {
   padding: 75px 0;
   background-color: #444;

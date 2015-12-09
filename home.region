@@ -40,14 +40,14 @@
         <h3 class="section-statement">Does your advisor meet these standards?</h3>
       </hgroup>
       <table class="table table-comparison">
+        <thead>
+          <tr>
+            <th>&nbsp;</th>
+            <th>LOGO</th>
+            <th>Other Advisor</th>
+          </tr>
+        </thead>
         <tbody>
-          <thead>
-            <tr>
-              <th>&nbsp;</th>
-              <th>LOGO</th>
-              <th>Other Advisor</th>
-            </tr>
-          </thead>
           <tr>
             <th>Dent is an independent investment advisor registered with the SEC. We have no broker-dealer affiliation.  We work for you.</th>
             <td>Checkmark</td>

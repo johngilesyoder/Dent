@@ -7433,6 +7433,10 @@ body {
   display: inline-block;
   margin-left: 15px;
 }
+.collection-type-blog .squarespace-social-buttons .ss-social-button-wrapper:hover {
+  border: 0;
+  box-shadow: none;
+}
 .collection-type-blog .squarespace-social-buttons .ss-social-button-wrapper .ss-social-button {
   background: #fff;
   color: #E87641;

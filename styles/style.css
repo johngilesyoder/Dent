@@ -7321,6 +7321,9 @@ body {
   padding: 15px;
   color: #fff;
 }
+.homepage .home-process .napkin-carousel img {
+  height: 500px;
+}
 .homepage .home-process .napkin-carousel .caption {
   font-size: 21px;
   font-weight: 700;

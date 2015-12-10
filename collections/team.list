@@ -9,7 +9,7 @@
       <div class="col-md-4">
         <!--MAIN IMAGE-->
         {.main-image?}
-          <img src="{fullUrl}?format=750w" data-image-dimensions="{originalSize}" />
+          <img class="member-photo" src="{fullUrl}?format=750w" data-image-dimensions="{originalSize}" />
         {.end}
       </div>
       <div class="col-md-8">

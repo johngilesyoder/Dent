@@ -7563,6 +7563,7 @@ body {
 }
 .collection-type-team.view-list .title {
   font-size: 36px;
+  margin-bottom: 30px;
 }
 .collection-type-team.view-list .hentry {
   margin-bottom: 30px;
@@ -7573,4 +7574,5 @@ body {
   display: block;
   max-width: 100%;
   height: auto;
+  border-radius: 50%;
 }

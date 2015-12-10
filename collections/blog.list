@@ -107,22 +107,22 @@
   
 {.if pagination}
   <nav>
+    <ul class="pager">
+      <!--NEWER PAGE-->
 
-    <!--NEWER PAGE-->
+      {.if pagination.prevPage}
+        <li class="next"><a href="{pagination.prevPageUrl}">Newer <span aria-hidden="true">&rarr;</span></a></li>
+      {.or}
+        <li class="next disabled"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+      {.end}
 
-    {.if pagination.prevPage}
-      <a href="{pagination.prevPageUrl}">Newer</a>
-    {.or}
-      <a class="disabled">Newer</a>
-    {.end}
+      <!--OLDER PAGE-->
 
-    <!--OLDER PAGE-->
-
-    {.if pagination.nextPage}
-      <a href="{pagination.nextPageUrl}">Older</a>
-    {.or}
-      <a class="disabled">Older</a>
-    {.end}
+      {.if pagination.nextPage}
+        <li class="previous"><a href="{pagination.nextPageUrl}"><span aria-hidden="true">&larr;</span> Older</a></li>
+      {.or}
+        <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+      {.end}
 
   </nav>
 {.end}

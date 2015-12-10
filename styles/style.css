@@ -7458,6 +7458,12 @@ body {
   margin-right: 10px;
   vertical-align: middle;
 }
+.collection-type-blog.view-list .pager a {
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
 .collection-type-blog.view-item .page-title {
   margin-bottom: 60px;
 }

@@ -7433,12 +7433,6 @@ body {
   display: inline-block;
   margin-left: 15px;
 }
-.collection-type-blog .squarespace-social-buttons .ss-social-button-wrapper:hover {
-  background: #fff;
-}
-.collection-type-blog .squarespace-social-buttons .ss-social-button-wrapper:hover .ss-social-button {
-  color: #c54f18;
-}
 .collection-type-blog .squarespace-social-buttons .ss-social-button-wrapper .ss-social-button {
   background: #fff;
   color: #E87641;
@@ -7446,6 +7440,11 @@ body {
   border: 1px solid #e6e6e6;
   padding: 1px 10px;
   height: auto;
+}
+.collection-type-blog .squarespace-social-buttons .ss-social-button-wrapper .ss-social-button:hover {
+  background: #f5f5f5;
+  color: #c54f18;
+  border-color: #ddd;
 }
 .collection-type-blog .squarespace-social-buttons .ss-social-button-wrapper .ss-social-button .ss-social-button-icon {
   background-image: url('/assets/icon-share-orange.svg');

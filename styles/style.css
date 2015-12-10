@@ -7432,6 +7432,7 @@ body {
   padding: 0;
   width: auto;
   display: inline-block;
+  margin-left: 15px;
 }
 .collection-type-blog .squarespace-social-buttons .ss-social-button-wrapper:hover {
   background: #fff;

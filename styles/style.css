@@ -7558,3 +7558,14 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+.collection-type-team.view-list .page-title {
+  margin-bottom: 60px;
+}
+.collection-type-team.view-list .title {
+  font-size: 36px;
+}
+.collection-type-team.view-list .hentry {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 30px;
+}

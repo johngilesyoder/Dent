@@ -5,34 +5,21 @@
   <!--WRAPPER-->
   
   <article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
-
-    <!--POST TILE-->
-
-    <h1 class="title" data-content-field="title">{title}</h1>
-
-    <!--MAIN IMAGE-->
-
-    {.main-image?}  
-      <a href="{fullUrl}" class="main-image content-fill">
-        <img {@|image-meta} />
-      </a>
-    {.end}
-
-    <!--EXCERPT OR BODY-->
-
-    {.if excerpt}
-      {excerpt}
-      <a class="link" href="{fullUrl}">Read More</a>
-    {.or}
-
-      <!--MAIN CONTENT-->
-
-      {body}
-
-    {.end}
+    <div class="row">
+      <div class="col-md-4">
+        <!--MAIN IMAGE-->
+        {.main-image?}
+          <img src="{fullUrl}?format=750w" data-image-dimensions="{originalSize}" />
+        {.end}
+      </div>
+      <div class="col-md-8">
+        <!--POST TILE-->
+        <h1 class="title" data-content-field="title">{title}</h1>
+        <!--MAIN CONTENT-->
+        {body}
+      </div>
 
     <!--TEAM INJECTION-->
-
     {postItemInjectCode}    
 
   </article>

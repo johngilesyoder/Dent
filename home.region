@@ -11,9 +11,7 @@
           <h3 class="section-statement">Uncommon insight, exceptional capabilities, and innovative thinking working for you.</h3>
         </hgroup>
         <div class="col-md-8">
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-          </p>
+          <iframe src="https://player.vimeo.com/video/147452700?title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
           <div class="section-actions">
             <a href="/contact-us/" class="btn btn-primary btn-contact">Contact us now</a>
             <span class="callout-phone">or call us at <strong>{websiteSettings.contactPhoneNumber}</strong></span>

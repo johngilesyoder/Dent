@@ -24,14 +24,6 @@
   <!--WRAPPER-->
   
   <article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
-    
-    <!--MAIN IMAGE-->
-
-    {.main-image?}  
-      <a href="{fullUrl}" class="main-image content-fill">
-        <img {@|image-meta} />
-      </a>
-    {.end}
 
     <!--POST TILE-->
 
@@ -42,6 +34,23 @@
         <a href="{fullUrl}">{title}</a>
       {.end}
     </h1>
+
+    <!--POST META-->
+    
+    <p class="meta">
+      Published on <a href="{fullUrl}"><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a> by <a href="?author={author.id}">{author.displayName}</a>.
+      {.section sourceUrl}
+        <a href="{@}" class="source" target="_blank">Source</a>.
+      {.end}
+    </p> 
+
+    <!--MAIN IMAGE-->
+
+    {.main-image?}  
+      <a href="{fullUrl}" class="main-image content-fill">
+        <img {@|image-meta} />
+      </a>
+    {.end}
 
     <!--EXCERPT OR BODY-->
 
@@ -76,19 +85,7 @@
 
     {@|like-button}
     {@|social-button}
-
-    <!--POST META-->
-    
-    <p class="meta">
-      Published on <a href="{fullUrl}"><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a> by <a href="?author={author.id}">{author.displayName}</a>.
-      {.section sourceUrl}
-        <a href="{@}" class="source" target="_blank">Source</a>.
-      {.end}
-    </p>        
-
-    <!--LINK TO COMMENTS-->
-
-    {@|comment-link}
+       
 
     <!--LOCATION-->
 

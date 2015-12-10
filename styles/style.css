@@ -1097,12 +1097,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #599B2C;
+  color: #E87641;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #375f1b;
+  color: #c54f18;
   text-decoration: underline;
 }
 a:focus {
@@ -3449,7 +3449,7 @@ fieldset[disabled] .btn-danger.active {
   background-color: #fff;
 }
 .btn-link {
-  color: #599B2C;
+  color: #E87641;
   font-weight: normal;
   border-radius: 0;
 }
@@ -3470,7 +3470,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #375f1b;
+  color: #c54f18;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4045,7 +4045,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #599B2C;
+  border-color: #E87641;
 }
 .nav .nav-divider {
   height: 1px;
@@ -4535,22 +4535,22 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-color: #e6e6e6;
 }
 .navbar-default .navbar-brand {
-  color: #599B2C;
+  color: #E87641;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #427321;
+  color: #db581b;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
   color: #222222;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #599B2C;
+  color: #E87641;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #375f1b;
+  color: #c54f18;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
@@ -4587,11 +4587,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #599B2C;
+    color: #E87641;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #375f1b;
+    color: #c54f18;
     background-color: transparent;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
@@ -4608,17 +4608,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default .navbar-link {
-  color: #599B2C;
+  color: #E87641;
 }
 .navbar-default .navbar-link:hover {
-  color: #375f1b;
+  color: #c54f18;
 }
 .navbar-default .btn-link {
-  color: #599B2C;
+  color: #E87641;
 }
 .navbar-default .btn-link:hover,
 .navbar-default .btn-link:focus {
-  color: #375f1b;
+  color: #c54f18;
 }
 .navbar-default .btn-link[disabled]:hover,
 fieldset[disabled] .navbar-default .btn-link:hover,
@@ -4762,7 +4762,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 6px 12px;
   line-height: 1.5;
   text-decoration: none;
-  color: #599B2C;
+  color: #E87641;
   background-color: #fff;
   border: 1px solid #ddd;
   margin-left: -1px;
@@ -4783,7 +4783,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > a:focus,
 .pagination > li > span:focus {
   z-index: 3;
-  color: #375f1b;
+  color: #c54f18;
   background-color: #eeeeee;
   border-color: #ddd;
 }
@@ -4981,7 +4981,7 @@ a.badge:focus {
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #599B2C;
+  color: #E87641;
   background-color: #fff;
 }
 .list-group-item > .badge {
@@ -5054,7 +5054,7 @@ a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #599B2C;
+  border-color: #E87641;
 }
 .thumbnail .caption {
   padding: 9px;
@@ -7399,6 +7399,17 @@ body {
   letter-spacing: 3px;
   border-radius: 3px;
 }
+.collection-type-blog .hentry {
+  margin-bottom: 50px;
+}
+.collection-type-blog .sqs-layout {
+  margin-bottom: 30px;
+}
+.collection-type-blog .meta {
+  margin-bottom: 30px;
+  font-family: 'Adobe Garamond Pro', Garamond, Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
 .collection-type-blog .squarespace-social-buttons {
   position: relative;
 }
@@ -7412,10 +7423,10 @@ body {
   top: 50%;
 }
 .collection-type-blog .squarespace-social-buttons .ss-social-button-wrapper {
-  background: transparent;
+  background: #fff;
   box-shadow: none;
   border-radius: 0;
 }
 .collection-type-blog .squarespace-social-buttons .ss-social-button-wrapper .ss-social-button {
-  color: #599B2C;
+  color: #E87641;
 }

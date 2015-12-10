@@ -1,0 +1,86 @@
+// blog-post.less
+// -----------------------------------------------------------------
+
+.collection-type-blog.view-item {
+  .page-title {
+    margin-bottom: 60px;
+  }
+  .title {
+    font-size: 36px;
+    a {
+      color: @text-color;
+    }
+  }
+  .hentry {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 30px;
+  }
+  .meta {
+    margin-bottom: 20px;
+    p {
+      font-family: @font-family-serif;
+      font-style: italic;
+      display: inline-block;
+    }
+  }
+  .squarespace-social-buttons {
+    display: inline-block;
+    .ss-social-button-wrapper {
+      background: transparent;
+      box-shadow: none;
+      border-radius: 0;
+      padding: 0;
+      width: auto;
+      display: inline-block;
+      margin-left: 15px;
+      &:hover {
+        border: 0;
+        box-shadow: none;
+        background: transparent;
+      }
+      .ss-social-button {
+        background: #fff;
+        color: @orange;
+        border-radius: 3px;
+        border: 1px solid #e6e6e6;
+        padding: 1px 10px;
+        height: auto;
+        &:hover {
+          background: #f5f5f5;
+          color: darken(@orange, 15%);
+          border-color: #ddd;
+        }
+        .ss-social-button-icon {
+          background-image: url('/assets/icon-share-orange.svg');
+          width: 12px;
+          height: 14px;
+          background-size: 12px;
+          display: inline-block;
+          margin-right: 10px;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
+
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {}
+
+// Up to tablet
+@media (max-width: 767px) {}
+
+// Up to landscape phone
+@media (max-width: 480px) {}

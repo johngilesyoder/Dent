@@ -7576,6 +7576,11 @@ body {
   height: auto;
   border-radius: 50%;
 }
+.collection-type-team.view-list .linkedin-link {
+  color: #0077B5;
+  font-weight: 700;
+  font-size: 13px;
+}
 .collection-type-team.view-list .linkedin-link:before {
   content: '';
   display: inline-block;

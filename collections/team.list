@@ -17,13 +17,8 @@
         <h1 class="title" data-content-field="title">{title}</h1>
         <!--MAIN CONTENT-->
         {body}
-
-        <div class="linkedin-link">
-          <a href="{customContent.linkedInLink}" target="_blank">
-            {customContent.linkedInText}
-          </a>
-        </div>
-
+        
+        <a class="linkedin-link" href="{customContent.linkedInLink}" target="_blank">{customContent.linkedInText}</a>
       </div>
 
     <!--TEAM INJECTION-->

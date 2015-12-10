@@ -6838,6 +6838,10 @@ button.close {
 }
 .contact-callout-sidebar {
   padding: 30px;
+  text-align: center;
+}
+.contact-callout-sidebar .callout-top {
+  line-height: 1.25em;
 }
 .contact-callout-sidebar .callout-bottom {
   text-align: center;

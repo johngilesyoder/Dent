@@ -6839,6 +6839,7 @@ button.close {
 .contact-callout-sidebar {
   padding: 30px 30px 25px;
   text-align: center;
+  font-size: 21px;
 }
 .contact-callout-sidebar .callout-top {
   line-height: 1.25em;

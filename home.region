@@ -2,7 +2,7 @@
 <main id="content" class="content" role="main" data-content-field="main-content">
   <section class="home-hero">
     <h2 class="hero-statement">Your financial success is an ongoing process — <em>not a product</em>.</h2>
-    <span class="real-clients">* Real clients &mdash; not stock photos</span>
+    <span class="real-clients">* Real clients &mdash; <em>not stock photos</em></span>
   </section>
   <section class="home-who">
     <div class="container">

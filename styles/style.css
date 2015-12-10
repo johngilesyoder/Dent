@@ -7434,6 +7434,8 @@ body {
 }
 .collection-type-blog .squarespace-social-buttons .ss-social-button-wrapper:hover {
   background: #fff;
+}
+.collection-type-blog .squarespace-social-buttons .ss-social-button-wrapper:hover .ss-social-button {
   color: #c54f18;
 }
 .collection-type-blog .squarespace-social-buttons .ss-social-button-wrapper .ss-social-button {

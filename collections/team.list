@@ -18,11 +18,11 @@
         <!--MAIN CONTENT-->
         {body}
 
-          <div class="linked-in-link">
-            <a href="{customContent.linkedInLink}" target="_blank">
-              {customContent.linkedInText}
-            </a>
-          </div>
+        <div class="linkedin-link">
+          <a href="{customContent.linkedInLink}" target="_blank">
+            {customContent.linkedInText}
+          </a>
+        </div>
 
       </div>
 

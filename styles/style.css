@@ -7576,3 +7576,13 @@ body {
   height: auto;
   border-radius: 50%;
 }
+.collection-type-team.view-list .linkedin-link:before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url('/assets/icon-linkedin-blue.svg');
+  background-size: 16px;
+  margin-right: 10px;
+  vertical-align: middle;
+}

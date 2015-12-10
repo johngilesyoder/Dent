@@ -7189,6 +7189,13 @@ body {
   font-weight: 500;
   text-shadow: 0 1px 17px rgba(0, 0, 0, 0.5);
 }
+.homepage .home-hero .real-clients {
+  color: #fff;
+  font-family: 'Adobe Garamond Pro', Garamond, Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  right: 30%;
+  top: 30%;
+}
 .homepage .home-who {
   padding: 75px 0;
   background-image: url('/assets/who-bg.jpg?123');

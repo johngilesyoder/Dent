@@ -19,8 +19,8 @@
         {body}
 
           <div class="linked-in-link">
-            <a href="{items.customContent.linkedInLink}" target="_blank">
-              {items.customContent.linkedInText}
+            <a href="{collection.customContent.linkedInLink}" target="_blank">
+              {collection.customContent.linkedInText}
             </a>
           </div>
 

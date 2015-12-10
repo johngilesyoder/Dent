@@ -7399,3 +7399,23 @@ body {
   letter-spacing: 3px;
   border-radius: 3px;
 }
+.collection-type-blog .squarespace-social-buttons {
+  position: relative;
+}
+.collection-type-blog .squarespace-social-buttons:after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: #e6e6e6;
+  top: 50%;
+}
+.collection-type-blog .squarespace-social-buttons .ss-social-button-wrapper {
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+}
+.collection-type-blog .squarespace-social-buttons .ss-social-button-wrapper .ss-social-button {
+  color: #599B2C;
+}

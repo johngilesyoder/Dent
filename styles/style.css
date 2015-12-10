@@ -6837,11 +6837,12 @@ button.close {
   vertical-align: middle;
 }
 .contact-callout-sidebar {
-  padding: 30px;
+  padding: 30px 30px 25px;
   text-align: center;
 }
 .contact-callout-sidebar .callout-top {
   line-height: 1.25em;
+  margin-bottom: 30px;
 }
 .contact-callout-sidebar .callout-bottom {
   text-align: center;

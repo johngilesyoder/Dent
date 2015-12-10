@@ -2,19 +2,19 @@
 <!-- CATEGORY FILTER RESULTS ex: http://base-template.squarespace.com/blog/?category=category1 -->
 
 {.section categoryFilter}
-  <div class="alert alert-info">Filtering by Category: {@|safe}</div>
+  <div class="alert alert-info alert-filter">Filtering by Category: <strong>{@|safe}</strong></div>
 {.end}
 
 <!-- TAG FILTER RESULTS ex: http://base-template.squarespace.com/blog/?tag=tag2 -->
 
 {.section tagFilter}
-  <div class="alert alert-info">Filtering by Tag: {@|safe}</div>
+  <div class="alert alert-info alert-filter">Filtering by Tag: <strong>{@|safe}</strong></div>
 {.end}
 
 <!-- AUTHOR FILTER RESULTS ex: http://www.base-template.com/blog?author=4f046df4d09ae2cf23d1aaa2 -->
 
 {.if authorFilter}
-  <div class="alert alert-info">Filtering by Author: {author.displayName}</div>
+  <div class="alert alert-info alert-filter">Filtering by Author: <strong>{author.displayName}</strong></div>
 {.end}
 
 <!--ITEM LOOP-->

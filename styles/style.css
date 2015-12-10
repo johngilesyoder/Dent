@@ -7402,6 +7402,10 @@ body {
 .collection-type-blog.view-list .page-title {
   margin-bottom: 60px;
 }
+.collection-type-blog.view-list .alert-filter {
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
 .collection-type-blog.view-list .title {
   font-size: 36px;
 }

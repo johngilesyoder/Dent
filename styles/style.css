@@ -7399,6 +7399,12 @@ body {
   letter-spacing: 3px;
   border-radius: 3px;
 }
+.collection-type-blog .title {
+  font-size: 36px;
+}
+.collection-type-blog .title a {
+  color: #222222;
+}
 .collection-type-blog .hentry {
   margin-bottom: 50px;
 }

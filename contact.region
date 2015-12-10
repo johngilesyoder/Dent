@@ -9,6 +9,19 @@
         </div>
       </div>
       <div class="col-md-4 col-md-offset-1">
+          <div class="location-info">
+            <strong class="location-title">IN LOUSIANA</strong>
+            <address>
+              301 Main St, Ste. 1502<br>
+              Baton Rouge, LA 70801
+            </address>
+            <div class="phone-numbers">
+              <strong>T:</strong> (225) 922-9955<br>
+              <strong>F:</strong> (225) 612-6644
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3439.4587017121794!2d-91.19047798477305!3d30.451443206185495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8626a0c2245cd0c7%3A0x9cd6002f65f99e98!2s301+Main+St+%231502%2C+Baton+Rouge%2C+LA+70801!5e0!3m2!1sen!2sus!4v1449534850415" width="100%" height="205" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
         <div class="location-info">
           <strong class="location-title">IN WASHINGTON D.C.</strong>
           <address>
@@ -21,17 +34,6 @@
           </div>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3100.830018413003!2d-77.29225688458992!3d38.996375648708664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b636cbe3ff4acd%3A0x9b18b2c6185b874d!2s752+Walker+Rd%2C+Great+Falls%2C+VA+22066!5e0!3m2!1sen!2sus!4v1449533599124" width="100%" height="205" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
-        <div class="location-info">
-          <strong class="location-title">IN LOUSIANA</strong>
-          <address>
-            301 Main St, Ste. 1502<br>
-            Baton Rouge, LA 70801
-          </address>
-          <div class="phone-numbers">
-            <strong>T:</strong> (225) 922-9955<br>
-            <strong>F:</strong> (225) 612-6644
-          </div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3439.4587017121794!2d-91.19047798477305!3d30.451443206185495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8626a0c2245cd0c7%3A0x9cd6002f65f99e98!2s301+Main+St+%231502%2C+Baton+Rouge%2C+LA+70801!5e0!3m2!1sen!2sus!4v1449534850415" width="100%" height="205" frameborder="0" style="border:0" allowfullscreen></iframe></div>
       </div>
     </div>
   </main>

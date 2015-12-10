@@ -7422,13 +7422,14 @@ body {
   font-style: italic;
   display: inline-block;
 }
+.collection-type-blog .squarespace-social-buttons {
+  display: inline-block;
+}
 .collection-type-blog .squarespace-social-buttons .ss-social-button-wrapper {
-  background: #fff;
+  background: transparent;
   box-shadow: none;
   border-radius: 0;
-  position: relative;
-  z-index: 10;
-  padding: 3px 15px 3px 0;
+  padding: 0;
   width: auto;
   display: inline-block;
 }
@@ -7439,8 +7440,12 @@ body {
   color: #c54f18;
 }
 .collection-type-blog .squarespace-social-buttons .ss-social-button-wrapper .ss-social-button {
+  background: #fff;
   color: #E87641;
-  padding: 0;
+  border-radius: 3px;
+  border: 1px solid #e6e6e6;
+  padding: 1px 10px;
+  height: auto;
 }
 .collection-type-blog .squarespace-social-buttons .ss-social-button-wrapper .ss-social-button .ss-social-button-icon {
   background-image: url('/assets/icon-share-orange.svg');

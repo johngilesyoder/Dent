@@ -7410,6 +7410,8 @@ body {
 }
 .collection-type-blog .hentry {
   margin-bottom: 50px;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 50px;
 }
 .collection-type-blog .sqs-layout {
   margin-bottom: 10px;

@@ -7416,8 +7416,11 @@ body {
 }
 .collection-type-blog .meta {
   margin-bottom: 20px;
+}
+.collection-type-blog .meta p {
   font-family: 'Adobe Garamond Pro', Garamond, Georgia, "Times New Roman", Times, serif;
   font-style: italic;
+  display: inline-block;
 }
 .collection-type-blog .squarespace-social-buttons .ss-social-button-wrapper {
   background: #fff;

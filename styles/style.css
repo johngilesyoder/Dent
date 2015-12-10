@@ -7580,6 +7580,8 @@ body {
   color: #0077B5;
   font-weight: 700;
   font-size: 13px;
+  display: inline-block;
+  margin-top: 15px;
 }
 .collection-type-team.view-list .linkedin-link:before {
   content: '';
@@ -7590,4 +7592,6 @@ body {
   background-size: 16px;
   margin-right: 10px;
   vertical-align: middle;
+  position: relative;
+  top: -2px;
 }

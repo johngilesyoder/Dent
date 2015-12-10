@@ -42,6 +42,11 @@
               <div class="footer-company">
                 © 2015 Dent Asset Management.  All Rights Reserved.
                 <squarespace:navigation navigationId="footerNav" template="navigation-footer" />
+                <div class="footer-social">
+                  <a href="#"><img src="/assets/linkedin.svg"></a>
+                  <a href="#"><img src="/assets/twitter.svg"></a>
+                  <a href="#"><img src="/assets/rss.svg"></a>
+                </div>
               </div>
             </div>
           </div>

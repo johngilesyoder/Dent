@@ -42,6 +42,10 @@
       {.section sourceUrl}
         <a href="{@}" class="source" target="_blank">Source</a>.
       {.end}
+      <!--SHARE AND LIKE-->
+
+      {@|like-button}
+      {@|social-button}
     </p> 
 
     <!--MAIN IMAGE-->
@@ -80,11 +84,6 @@
     {.repeated section tags}
       <a class="tag" href="?tag={@|url-encode}">{@}</a>{.alternates with},
     {.end}
-
-    <!--SHARE AND LIKE-->
-
-    {@|like-button}
-    {@|social-button}
        
 
     <!--LOCATION-->

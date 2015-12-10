@@ -7399,6 +7399,9 @@ body {
   letter-spacing: 3px;
   border-radius: 3px;
 }
+.collection-type-blog .page-title {
+  margin-bottom: 60px;
+}
 .collection-type-blog .title {
   font-size: 36px;
 }
@@ -7415,18 +7418,6 @@ body {
   margin-bottom: 20px;
   font-family: 'Adobe Garamond Pro', Garamond, Georgia, "Times New Roman", Times, serif;
   font-style: italic;
-}
-.collection-type-blog .squarespace-social-buttons {
-  position: relative;
-}
-.collection-type-blog .squarespace-social-buttons:after {
-  content: '';
-  display: inline-block;
-  position: absolute;
-  height: 1px;
-  width: 100%;
-  background-color: #e6e6e6;
-  top: 50%;
 }
 .collection-type-blog .squarespace-social-buttons .ss-social-button-wrapper {
   background: #fff;

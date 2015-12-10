@@ -7467,11 +7467,12 @@ body {
 .collection-type-blog.view-item .page-title {
   margin-bottom: 60px;
 }
+.collection-type-blog.view-item .alert-filter {
+  margin-top: -40px;
+  margin-bottom: 50px;
+}
 .collection-type-blog.view-item .title {
   font-size: 36px;
-}
-.collection-type-blog.view-item .title a {
-  color: #222222;
 }
 .collection-type-blog.view-item .hentry {
   margin-bottom: 30px;
@@ -7524,4 +7525,10 @@ body {
   display: inline-block;
   margin-right: 10px;
   vertical-align: middle;
+}
+.collection-type-blog.view-item .pager a {
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }

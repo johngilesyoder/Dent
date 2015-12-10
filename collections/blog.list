@@ -112,16 +112,12 @@
 
       {.if pagination.prevPage}
         <li class="next"><a href="{pagination.prevPageUrl}">Newer <span aria-hidden="true">&rarr;</span></a></li>
-      {.or}
-        
       {.end}
 
       <!--OLDER PAGE-->
 
       {.if pagination.nextPage}
         <li class="previous"><a href="{pagination.nextPageUrl}"><span aria-hidden="true">&larr;</span> Older</a></li>
-      {.or}
-        
       {.end}
 
   </nav>

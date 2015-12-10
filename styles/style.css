@@ -6944,6 +6944,16 @@ button.close {
 .site-footer .footer-company ul li {
   display: inline-block;
 }
+.site-footer .footer-company .footer-social {
+  margin-left: 30px;
+}
+.site-footer .footer-company .footer-social a {
+  margin-right: 8px;
+  display: inline-block;
+}
+.site-footer .footer-company .footer-social a img {
+  height: 17px;
+}
 html,
 body {
   height: 100%;

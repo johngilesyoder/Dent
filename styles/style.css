@@ -6836,20 +6836,20 @@ button.close {
   margin-right: 8px;
   vertical-align: middle;
 }
-.contact-callout-side {
+.contact-callout-sidebar {
   padding: 30px;
 }
-.contact-callout-side .callout-bottom {
+.contact-callout-sidebar .callout-bottom {
   text-align: center;
 }
-.contact-callout-side .callout-bottom .btn-callout {
+.contact-callout-sidebar .callout-bottom .btn-callout {
   width: 100%;
 }
-.contact-callout-side .callout-bottom .callout-phone {
+.contact-callout-sidebar .callout-bottom .callout-phone {
   font-size: 14px;
   line-height: 1em;
 }
-.contact-callout-side .callout-bottom .callout-phone:before {
+.contact-callout-sidebar .callout-bottom .callout-phone:before {
   content: '';
   background-image: url('/assets/icon-phone-orange.svg');
   width: 17px;

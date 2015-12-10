@@ -7447,3 +7447,10 @@ body {
 .collection-type-blog .squarespace-social-buttons .ss-social-button-wrapper .ss-social-button {
   color: #E87641;
 }
+.collection-type-blog .squarespace-social-buttons .ss-social-button-wrapper .ss-social-button .ss-social-button-icon {
+  background-image: url('/assets/icon-share-orange.svg');
+  width: 12px;
+  height: 14px;
+  background-size: 12px;
+  display: inline-block;
+}

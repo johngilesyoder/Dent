@@ -127,7 +127,32 @@
 @media (max-width: 767px) {
 
   .site-header {
+    min-height: 65px;
     margin-bottom: 30px;
+    .navbar-header {
+      margin-bottom: 0;
+      .navbar-brand {
+        height: 65px;
+        padding: 17.5px 15px;
+        .site-logo {
+          background-image: url('https://static1.squarespace.com/static/ta/562e7f61e4b0b64d5a3ede96/346/assets/site-logo.svg');
+          display: inline-block;
+          width: 225px;
+          height: 51px;
+          background-size: 225px;
+          background-position: 0 50%;
+          background-repeat: no-repeat;
+        }
+      }
+      .site-phone {
+        font-size: 16px;
+        line-height: 65px;
+      }
+      .navbar-toggle {
+        margin-top: 15.5px;
+        margin-bottom: 15.5px;
+      }
+    }
   }
 
 }

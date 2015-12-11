@@ -7186,13 +7186,13 @@ body {
     margin-top: 30px;
   }
   #wrap {
-    margin: 0 auto -533px;
+    margin: 0 auto -548px;
   }
   #push {
-    height: 533px;
+    height: 548px;
   }
   .site-footer {
-    height: 533px;
+    height: 548px;
   }
 }
 @media (max-width: 480px) {
@@ -7205,13 +7205,13 @@ body {
     padding-right: 15px;
   }
   #wrap {
-    margin: 0 auto -663px;
+    margin: 0 auto -688px;
   }
   #push {
-    height: 663px;
+    height: 688px;
   }
   .site-footer {
-    height: 663px;
+    height: 688px;
   }
 }
 .site-header {

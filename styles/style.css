@@ -7177,6 +7177,15 @@ body {
     display: block;
     margin-top: 30px;
   }
+  #wrap {
+    margin: 0 auto -533px;
+  }
+  #push {
+    height: 533px;
+  }
+  .site-footer {
+    height: 533px;
+  }
 }
 @media (max-width: 480px) {
   .site-footer .address-wrapper {
@@ -7186,6 +7195,15 @@ body {
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+  #wrap {
+    margin: 0 auto -663px;
+  }
+  #push {
+    height: 663px;
+  }
+  .site-footer {
+    height: 663px;
   }
 }
 .site-header {

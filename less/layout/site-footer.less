@@ -101,9 +101,11 @@
 // 2. Wrap all content above the footer in a #wrap div
 // 3. Set the @footerHeight variable to the height of the footer
 
-@footerHeight-lg: 258px; // Set the height of the footer here
-@footerHeight-md: 278px; // Set the height of the footer here
-@footerHeight-sm: 311px; // Set the height of the footer here
+@footerHeight-lg:  258px; // Set the height of the footer here
+@footerHeight-md:  278px; // Set the height of the footer here
+@footerHeight-sm:  311px; // Set the height of the footer here
+@footerHeight-xs:  533px; // Set the height of the footer here
+@footerHeight-xxs: 663px; // Set the height of the footer here
 
 html,
 body {
@@ -201,6 +203,16 @@ body {
     }
   }
 
+  #wrap {
+    margin: 0 auto -@footerHeight-xs;
+  }
+  #push {
+    height: @footerHeight-xs;
+  }
+  .site-footer {
+    height: @footerHeight-xs;
+  }
+
 }
 
 // Up to landscape phone
@@ -210,6 +222,16 @@ body {
     .address-wrapper {
       .make-xs-column(12);
     }
+  }
+
+  #wrap {
+    margin: 0 auto -@footerHeight-xxs;
+  }
+  #push {
+    height: @footerHeight-xxs;
+  }
+  .site-footer {
+    height: @footerHeight-xxs;
   }
 
 }

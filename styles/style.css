@@ -7863,6 +7863,9 @@ body {
   .collection-type-blog.view-list .meta {
     margin-bottom: 15px;
   }
+  .collection-type-blog.view-list .squarespace-social-buttons {
+    display: block;
+  }
 }
 .collection-type-blog.view-item .page-title {
   margin-bottom: 60px;

@@ -7372,6 +7372,11 @@ body {
     margin-bottom: 30px;
   }
 }
+@media (max-width: 480px) {
+  .page-title {
+    font-size: 30px;
+  }
+}
 .homepage section {
   border-bottom: 4px solid #222222;
 }

@@ -3,7 +3,7 @@
     <div class="col-md-8">
       <!--Content injection point.-->
       <main id="content" class="content" role="main" data-content-field="main-content">
-        <h1 class="page-title">Page not found</h1>
+        <h1 class="page-title">{collection.title}</h1>
         <div class="page-content">
           {squarespace.main-content}
         </div>

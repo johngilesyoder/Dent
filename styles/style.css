@@ -7211,13 +7211,13 @@ body {
     padding-right: 15px;
   }
   #wrap {
-    margin: 0 auto -701px;
+    margin: 0 auto;
   }
   #push {
-    height: 701px;
+    height: 0;
   }
   .site-footer {
-    height: 701px;
+    height: auto;
   }
 }
 .site-header {

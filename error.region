@@ -3,9 +3,14 @@
     <div class="col-md-8">
       <!--Content injection point.-->
       <main id="content" class="content" role="main" data-content-field="main-content">
-        <h1 class="page-title">{collection.title}</h1>
+        <h1 class="page-title">Page not found</h1>
         <div class="page-content">
-          {squarespace.main-content}
+          <p>We couldn't find the page you were looking for. This is either because:</p>
+          <ul>
+            <li>There is an error in the URL entered into your web browser. Please check the URL and try again.</li>
+            <li>The page you are looking for has been moved or deleted.</li>
+          </ul>
+          <p>You can return to our homepage by <a href="/">clicking here</a>.</p>
         </div>
       </main>
     </div>

@@ -6893,10 +6893,16 @@ button.close {
     line-height: 1.5em;
     width: 100%;
     float: none;
+    text-align: center;
   }
   .contact-callout .callout-right {
     width: 100%;
     float: none;
+  }
+  .contact-callout .callout-right .callout-phone {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
   }
 }
 .container-fluid {

@@ -6951,13 +6951,89 @@ button.close {
 .site-footer a:hover {
   color: rgba(255, 255, 255, 0.8);
 }
+.site-footer .footer-logo-wrapper {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  .site-footer .footer-logo-wrapper {
+    float: left;
+    width: 8.33333333%;
+  }
+}
 .site-footer .footer-logo {
   display: block;
   max-width: 100%;
   height: auto;
 }
+.site-footer .address-wrapper {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .site-footer .address-wrapper {
+    float: left;
+    width: 33.33333333%;
+  }
+}
+@media (min-width: 992px) {
+  .site-footer .address-wrapper {
+    float: left;
+    width: 16.66666667%;
+  }
+}
 .site-footer address {
   margin-bottom: 5px;
+}
+.site-footer .hours-wrapper {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .site-footer .hours-wrapper {
+    float: left;
+    width: 25%;
+  }
+}
+@media (min-width: 992px) {
+  .site-footer .hours-wrapper {
+    float: left;
+    width: 16.66666667%;
+  }
+}
+.site-footer .download-wrapper {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .site-footer .download-wrapper {
+    float: left;
+    width: 91.66666667%;
+  }
+}
+@media (min-width: 768px) {
+  .site-footer .download-wrapper {
+    margin-left: 8.33333333%;
+  }
+}
+@media (min-width: 992px) {
+  .site-footer .download-wrapper {
+    float: left;
+    width: 41.66666667%;
+  }
+}
+@media (min-width: 992px) {
+  .site-footer .download-wrapper {
+    margin-left: 0%;
+  }
 }
 .site-footer .download-pdf {
   text-align: right;
@@ -6975,6 +7051,23 @@ button.close {
   vertical-align: middle;
   position: relative;
   top: 1px;
+}
+.site-footer .company-wrapper {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .site-footer .company-wrapper {
+    float: left;
+    width: 91.66666667%;
+  }
+}
+@media (min-width: 768px) {
+  .site-footer .company-wrapper {
+    margin-left: 8.33333333%;
+  }
 }
 .site-footer .footer-company {
   line-height: 18px;

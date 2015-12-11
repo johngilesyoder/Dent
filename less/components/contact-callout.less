@@ -137,9 +137,11 @@
     }
   }
   .contact-callout-sidebar {
+    font-size: 18px;
     .callout-phone {
       margin-top: 15px;
       display: inline-block;
+      font-size: 18px;
     }
   }
 
@@ -150,6 +152,15 @@
 
   .contact-callout {
     .callout-right {
+      .callout-phone {
+        &:before {
+          display: none;
+        }
+      }
+    }
+  }
+  .contact-callout-sidebar {
+    .callout-bottom {
       .callout-phone {
         &:before {
           display: none;

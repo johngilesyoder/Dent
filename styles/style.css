@@ -7317,15 +7317,7 @@ body {
 }
 @media (max-width: 767px) {
   .site-header {
-    min-height: 65px;
     margin-bottom: 30px;
-  }
-  .site-header .navbar-header {
-    margin-bottom: 0;
-  }
-  .site-header .navbar-header .navbar-brand {
-    height: 65px;
-    padding: 17.5px 15px;
   }
   .site-header .navbar-header .navbar-brand .site-logo {
     background-image: url('https://static1.squarespace.com/static/ta/562e7f61e4b0b64d5a3ede96/346/assets/site-logo.svg');
@@ -7338,11 +7330,6 @@ body {
   }
   .site-header .navbar-header .site-phone {
     font-size: 16px;
-    line-height: 65px;
-  }
-  .site-header .navbar-header .navbar-toggle {
-    margin-top: 15.5px;
-    margin-bottom: 15.5px;
   }
 }
 @media (max-width: 480px) {

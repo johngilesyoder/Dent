@@ -7335,6 +7335,9 @@ body {
   .site-header .navbar-header .site-phone {
     font-size: 16px;
   }
+  .site-header .navbar-collapse {
+    background: #f5f5f5;
+  }
   .site-header .navbar-collapse .navbar-nav li:nth-child(4) a:before {
     margin-right: 5px;
   }

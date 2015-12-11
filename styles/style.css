@@ -6864,6 +6864,41 @@ button.close {
   margin-right: 8px;
   vertical-align: middle;
 }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .contact-callout .callout-left {
+    padding: 15px 30px;
+    line-height: 1.5em;
+    width: 65%;
+  }
+  .contact-callout .callout-right {
+    width: 35%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .contact-callout .callout-left {
+    padding: 15px 30px;
+    line-height: 1.5em;
+    width: 65%;
+  }
+  .contact-callout .callout-right {
+    width: 35%;
+  }
+}
+@media (max-width: 767px) {
+  .contact-callout {
+    font-size: 18px;
+  }
+  .contact-callout .callout-left {
+    padding: 15px 30px 0;
+    line-height: 1.5em;
+    width: 100%;
+    float: none;
+  }
+  .contact-callout .callout-right {
+    width: 100%;
+    float: none;
+  }
+}
 .container-fluid {
   padding: 0 30px;
 }

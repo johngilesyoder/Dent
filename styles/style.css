@@ -7180,6 +7180,11 @@ body {
 .page-content {
   margin-bottom: 60px;
 }
+@media (max-width: 767px) {
+  .page-content {
+    margin-bottom: 30px;
+  }
+}
 .homepage section {
   border-bottom: 4px solid #222222;
 }

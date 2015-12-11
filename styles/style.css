@@ -7124,7 +7124,6 @@ body {
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   #wrap {
-    min-height: 0;
     margin: 0 auto -278px;
   }
   #push {
@@ -7140,7 +7139,6 @@ body {
     margin-top: 30px;
   }
   #wrap {
-    min-height: 0;
     margin: 0 auto -311px;
   }
   #push {
@@ -7195,6 +7193,7 @@ body {
   }
   #wrap {
     margin: 0 auto;
+    min-height: 0;
   }
   #push {
     height: 0;
@@ -7214,6 +7213,7 @@ body {
   }
   #wrap {
     margin: 0 auto;
+    min-height: 0;
   }
   #push {
     height: 0;

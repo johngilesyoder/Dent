@@ -7192,13 +7192,13 @@ body {
     height: 30px;
   }
   #wrap {
-    margin: 0 auto -561px;
+    margin: 0 auto;
   }
   #push {
-    height: 561px;
+    height: 0;
   }
   .site-footer {
-    height: 561px;
+    height: auto;
   }
 }
 @media (max-width: 480px) {

@@ -6915,7 +6915,7 @@ button.close {
   }
 }
 @media (max-width: 480px) {
-  .contact-callout .callout-phone:before {
+  .contact-callout .callout-right .callout-phone:before {
     display: none;
   }
 }

@@ -7115,9 +7115,12 @@ button.close {
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px;
-  }
-  .site-footer address {
     margin-bottom: 30px;
+    text-align: center;
+  }
+  .site-footer .hours-wrapper {
+    margin-bottom: 30px;
+    text-align: center;
   }
   .site-footer .download-pdf {
     text-align: center;

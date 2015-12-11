@@ -7109,6 +7109,7 @@ button.close {
   }
   .site-footer .footer-logo {
     margin-bottom: 30px;
+    display: inline-block;
   }
   .site-footer .address-wrapper {
     position: relative;

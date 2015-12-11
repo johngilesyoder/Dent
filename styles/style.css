@@ -7320,6 +7320,23 @@ body {
     margin-bottom: 30px;
   }
 }
+@media (max-width: 480px) {
+  .site-header .navbar-header {
+    margin-bottom: 0;
+  }
+  .site-header .navbar-header .navbar-brand {
+    padding: 22px 30px 22px 15px;
+  }
+  .site-header .navbar-header .navbar-brand .site-logo {
+    width: 51px;
+    height: 51px;
+  }
+  .site-header .navbar-header .site-phone {
+    font-size: 16px;
+    line-height: 95px;
+    float: left;
+  }
+}
 .site-header.navbar-inverse {
   border-top-color: #81BF58;
   color: #fff;

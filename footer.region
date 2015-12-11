@@ -31,7 +31,7 @@
               After hours and weekends<br>
               by appointment.
             </div>
-            <div class="col-sm-12 col-md-5">
+            <div class="col-sm-11 col-sm-offset-1 col-md-5">
               <div class="download-pdf">
                 <a href="/assets/2015-ADV2-Combined.pdf">Download our SEC ADV Disclosure Brochure</a>
               </div>

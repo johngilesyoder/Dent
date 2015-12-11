@@ -6914,6 +6914,11 @@ button.close {
     display: inline-block;
   }
 }
+@media (max-width: 480px) {
+  .contact-callout .callout-phone:before {
+    display: none;
+  }
+}
 .container-fluid {
   padding: 0 30px;
 }

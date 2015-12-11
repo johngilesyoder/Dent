@@ -7341,7 +7341,7 @@ body {
   .site-header .navbar-collapse .navbar-nav .contact-us {
     height: auto;
     line-height: inherit;
-    padding: ;
+    padding: 0;
   }
   .site-header .navbar-collapse .navbar-nav .contact-us a {
     line-height: inherit;

@@ -7137,6 +7137,16 @@ button.close {
     margin-top: 30px;
   }
 }
+@media (max-width: 480px) {
+  .site-footer .address-wrapper {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 .site-header {
   border-top: 4px solid #68B833;
   margin-bottom: 80px;

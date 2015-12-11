@@ -8,7 +8,7 @@
             <div class="col-sm-1">
               <img class="footer-logo" src="/assets/logo-mark-green.svg">
             </div>
-            <div class="col-sm-3 col-md-2">
+            <div class="col-sm-4 col-md-2">
               <strong>Louisiana</strong>
               <address>
                 301 Main St, Ste. 1502<br>
@@ -17,7 +17,7 @@
               T: (225) 922-9955<br> 
               F: (225) 612-6644
             </div>
-            <div class="col-sm-3 col-md-2">
+            <div class="col-sm-4 col-md-2">
               <strong>Washington D.C.</strong>
               <address>
                 752 Walker Rd, Ste. E<br>
@@ -26,7 +26,7 @@
               T: (703) 552-2525<br>
               F: (225) 612-6644
             </div>
-            <div class="col-sm-4 col-md-2">
+            <div class="col-sm-3 col-md-2">
               Mon-Fri 9am-5pm<br>
               After hours and weekends<br>
               by appointment.

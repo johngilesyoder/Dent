@@ -6941,6 +6941,10 @@ button.close {
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
+a[href^="tel"] {
+  color: #222222;
+  text-decoration: none;
+}
 @media (min-width: 768px) and (max-width: 991px) {
   .container-fluid {
     padding: 0 15px;

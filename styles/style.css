@@ -7321,20 +7321,28 @@ body {
   }
 }
 @media (max-width: 480px) {
+  .site-header {
+    min-height: 65px;
+  }
   .site-header .navbar-header {
     margin-bottom: 0;
   }
   .site-header .navbar-header .navbar-brand {
-    padding: 22px 15px;
+    height: 65px;
+    padding: 17.5px 15px;
   }
   .site-header .navbar-header .navbar-brand .site-logo {
-    width: 52px;
-    height: 51px;
+    width: 30px;
+    height: 30px;
+    background-size: 185px;
   }
   .site-header .navbar-header .site-phone {
     font-size: 16px;
-    line-height: 95px;
-    float: left;
+    line-height: 65px;
+  }
+  .site-header .navbar-header .navbar-toggle {
+    margin-top: 15.5px;
+    margin-bottom: 15.5px;
   }
 }
 .site-header.navbar-inverse {

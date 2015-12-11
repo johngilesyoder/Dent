@@ -6885,6 +6885,7 @@ button.close {
   }
   .contact-callout-sidebar .callout-phone {
     margin-top: 15px;
+    display: inline-block;
   }
 }
 @media (max-width: 767px) {
@@ -6905,6 +6906,10 @@ button.close {
   .contact-callout .callout-right .callout-phone {
     margin-top: 15px;
     margin-bottom: 15px;
+    display: inline-block;
+  }
+  .contact-callout-sidebar .callout-phone {
+    margin-top: 15px;
     display: inline-block;
   }
 }

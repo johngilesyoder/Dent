@@ -7093,6 +7093,11 @@ body {
 .site-header .navbar-collapse .navbar-nav .contact-us.active a {
   border-color: #222222;
 }
+@media (max-width: 767px) {
+  .site-header {
+    margin-bottom: 30px;
+  }
+}
 .site-header.navbar-inverse {
   border-top-color: #81BF58;
   color: #fff;

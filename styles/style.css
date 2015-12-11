@@ -7335,6 +7335,22 @@ body {
   .site-header .navbar-header .site-phone {
     font-size: 16px;
   }
+  .site-header .navbar-collapse .navbar-nav li:nth-child(4) a:before {
+    margin-right: 5px;
+  }
+  .site-header .navbar-collapse .navbar-nav .contact-us {
+    height: auto;
+    line-height: inherit;
+    padding: ;
+  }
+  .site-header .navbar-collapse .navbar-nav .contact-us a {
+    line-height: inherit;
+    padding: 10px;
+    border: none;
+  }
+  .site-header .navbar-collapse .navbar-nav .contact-us.active a {
+    border-color: #222222;
+  }
 }
 @media (max-width: 480px) {
   .site-header {

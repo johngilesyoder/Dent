@@ -144,6 +144,37 @@
         font-size: 16px;
       }
     }
+    .navbar-collapse {
+      .navbar-nav {
+        & > li {
+          a {
+            
+          }
+        }
+        li:nth-child(4) {
+          a {
+            &:before {
+              margin-right: 5px;
+            }
+          }
+        }
+        .contact-us {
+          height: auto;
+          line-height: inherit;
+          padding: ;
+          a {
+            line-height: inherit;
+            padding: 10px;
+            border: none;
+          }
+          &.active {
+            a {
+              border-color: @text-color;
+            }
+          }
+        }
+      }
+    }
   }
 
 }

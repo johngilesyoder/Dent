@@ -7187,6 +7187,8 @@ body {
   }
   .site-footer .footer-company .footer-social a {
     margin-right: 25px;
+  }
+  .site-footer .footer-company .footer-social a img {
     height: 30px;
   }
   #wrap {

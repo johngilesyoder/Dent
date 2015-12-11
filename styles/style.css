@@ -7325,10 +7325,10 @@ body {
     margin-bottom: 0;
   }
   .site-header .navbar-header .navbar-brand {
-    padding: 22px 30px 22px 15px;
+    padding: 22px 15px;
   }
   .site-header .navbar-header .navbar-brand .site-logo {
-    width: 51px;
+    width: 52px;
     height: 51px;
   }
   .site-header .navbar-header .site-phone {

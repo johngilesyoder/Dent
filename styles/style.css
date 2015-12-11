@@ -7296,6 +7296,25 @@ body {
 .site-header .navbar-collapse .navbar-nav .contact-us.active a {
   border-color: #222222;
 }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .site-header .navbar-collapse .navbar-nav > li a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .site-header .navbar-collapse .navbar-nav li:nth-child(4) a:before {
+    display: none;
+  }
+  .site-header .navbar-collapse .navbar-nav .contact-us {
+    height: auto;
+    line-height: inherit;
+    padding: 0;
+  }
+  .site-header .navbar-collapse .navbar-nav .contact-us a {
+    line-height: inherit;
+    padding: 35.5px 10px;
+    border: none;
+  }
+}
 @media (max-width: 767px) {
   .site-header {
     margin-bottom: 30px;

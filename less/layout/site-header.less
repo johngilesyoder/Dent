@@ -85,7 +85,40 @@
 @media (min-width: 1200px) {}
 
 // Desktop to large desktop
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .site-header {
+    .navbar-collapse {
+      .navbar-nav {
+        & > li {
+          a {
+            padding-left: 10px;
+            padding-right: 10px;
+
+          }
+        }
+        li:nth-child(4) {
+          a {
+            &:before {
+              display: none;
+            }
+          }
+        }
+        .contact-us {
+          height: auto;
+          line-height: inherit;
+          padding: 0;
+          a {
+            line-height: inherit;
+            padding: 35.5px 10px;
+            border: none;
+          }
+        }
+      }
+    }
+  }
+
+}
 
 // Tablet to desktop
 @media (min-width: 768px) and (max-width: 991px) {}

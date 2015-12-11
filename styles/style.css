@@ -7097,10 +7097,51 @@ button.close {
 .site-footer .footer-company .footer-social a img {
   height: 17px;
 }
+html,
+body {
+  height: 100%;
+}
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -258px;
+}
+#push {
+  height: 258px;
+}
+.site-footer {
+  z-index: 1;
+  position: relative;
+  height: 258px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #wrap {
+    margin: 0 auto -278px;
+  }
+  #push {
+    height: 278px;
+  }
+  .site-footer {
+    height: 278px;
+  }
+}
 @media (min-width: 768px) and (max-width: 991px) {
   .site-footer .download-pdf {
     text-align: left;
     margin-top: 30px;
+  }
+  #wrap {
+    margin: 0 auto -311px;
+  }
+  #push {
+    height: 311px;
+  }
+  .site-footer {
+    height: 311px;
   }
 }
 @media (max-width: 767px) {

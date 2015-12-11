@@ -101,29 +101,29 @@
 // 2. Wrap all content above the footer in a #wrap div
 // 3. Set the @footerHeight variable to the height of the footer
 
-// @footerHeight-lg: 258px; // Set the height of the footer here
-// @footerHeight-md: 339px; // Set the height of the footer here
-// @footerHeight-sm: 370px; // Set the height of the footer here
+@footerHeight-lg: 258px; // Set the height of the footer here
+@footerHeight-md: 278px; // Set the height of the footer here
+@footerHeight-sm: 311px; // Set the height of the footer here
 
-// html,
-// body {
-//   height: 100%;
-// }
-// #wrap {
-//   min-height: 100%;
-//   height: auto !important;
-//   height: 100%;
-//   margin: 0 auto -@footerHeight-lg;
-// }
-// #push {
-//   height: @footerHeight-lg;
-// }
-// .site-footer {
-//   z-index: 1;
-//   position: relative;
-//   height: @footerHeight-lg;
-//   .box-sizing(border-box);
-// }
+html,
+body {
+  height: 100%;
+}
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -@footerHeight-lg;
+}
+#push {
+  height: @footerHeight-lg;
+}
+.site-footer {
+  z-index: 1;
+  position: relative;
+  height: @footerHeight-lg;
+  .box-sizing(border-box);
+}
 
 // Media Queries
 // --------------------------------------------------
@@ -132,7 +132,19 @@
 @media (min-width: 1200px) {}
 
 // Desktop to large desktop
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  #wrap {
+    margin: 0 auto -@footerHeight-md;
+  }
+  #push {
+    height: @footerHeight-md;
+  }
+  .site-footer {
+    height: @footerHeight-md;
+  }
+
+}
 
 // Tablet to desktop
 @media (min-width: 768px) and (max-width: 991px) {
@@ -142,6 +154,16 @@
       text-align: left;
       margin-top: 30px;
     }
+  }
+
+  #wrap {
+    margin: 0 auto -@footerHeight-sm;
+  }
+  #push {
+    height: @footerHeight-sm;
+  }
+  .site-footer {
+    height: @footerHeight-sm;
   }
 
 }
@@ -177,16 +199,6 @@
         margin-top: 30px;
       }
     }
-  }
-
-  #wrap {
-    // margin: 0 auto -@footerHeight-md;
-  }
-  #push {
-    // height: @footerHeight-md;
-  }
-  .site-footer {
-    // height: @footerHeight-md;
   }
 
 }

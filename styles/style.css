@@ -6883,6 +6883,9 @@ button.close {
   .contact-callout .callout-right {
     width: 35%;
   }
+  .contact-callout-sidebar .callout-phone {
+    margin-top: 15px;
+  }
 }
 @media (max-width: 767px) {
   .contact-callout {

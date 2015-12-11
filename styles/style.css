@@ -7186,6 +7186,9 @@ body {
   margin-bottom: 60px;
 }
 @media (max-width: 767px) {
+  .page-title {
+    margin-bottom: 30px;
+  }
   .page-content {
     margin-bottom: 30px;
   }

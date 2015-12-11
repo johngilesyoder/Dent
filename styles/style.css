@@ -7185,14 +7185,18 @@ body {
     display: block;
     margin-top: 30px;
   }
+  .site-footer .footer-company .footer-social a {
+    margin-right: 25px;
+    height: 30px;
+  }
   #wrap {
-    margin: 0 auto -548px;
+    margin: 0 auto -561px;
   }
   #push {
-    height: 548px;
+    height: 561px;
   }
   .site-footer {
-    height: 548px;
+    height: 561px;
   }
 }
 @media (max-width: 480px) {
@@ -7205,13 +7209,13 @@ body {
     padding-right: 15px;
   }
   #wrap {
-    margin: 0 auto -688px;
+    margin: 0 auto -701px;
   }
   #push {
-    height: 688px;
+    height: 701px;
   }
   .site-footer {
-    height: 688px;
+    height: 701px;
   }
 }
 .site-header {

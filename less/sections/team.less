@@ -51,24 +51,25 @@
 @media (min-width: 992px) and (max-width: 1199px) {}
 
 // Tablet to desktop
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {}
+
+// Up to tablet
+@media (max-width: 767px) {
 
   .collection-type-team.view-list {
     .page-title {
-      margin-bottom: 60px;
-    }
-    .title {
-      font-size: 36px;
       margin-bottom: 30px;
     }
+    .title {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
     .hentry {
-      margin-bottom: 40px;
-      border-bottom: 1px solid #e6e6e6;
-      padding-bottom: 40px;
+      margin-bottom: 30px;
+      padding-bottom: 30px;
     }
     .member-photo {
-      .img-responsive();
-      
+      width: 50%;
     }
     .linkedin-link {
       
@@ -76,9 +77,6 @@
   }
 
 }
-
-// Up to tablet
-@media (max-width: 767px) {}
 
 // Up to landscape phone
 @media (max-width: 480px) {}

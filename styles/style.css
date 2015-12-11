@@ -7948,22 +7948,19 @@ body {
   position: relative;
   top: -2px;
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 767px) {
   .collection-type-team.view-list .page-title {
-    margin-bottom: 60px;
-  }
-  .collection-type-team.view-list .title {
-    font-size: 36px;
     margin-bottom: 30px;
   }
+  .collection-type-team.view-list .title {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
   .collection-type-team.view-list .hentry {
-    margin-bottom: 40px;
-    border-bottom: 1px solid #e6e6e6;
-    padding-bottom: 40px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
   }
   .collection-type-team.view-list .member-photo {
-    display: block;
-    max-width: 100%;
-    height: auto;
+    width: 50%;
   }
 }

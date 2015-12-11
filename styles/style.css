@@ -7845,6 +7845,21 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+@media (max-width: 767px) {
+  .collection-type-blog.view-list .page-title {
+    margin-bottom: 30px;
+  }
+  .collection-type-blog.view-list .alert-filter {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  .collection-type-blog.view-list .title {
+    font-size: 30px;
+  }
+  .collection-type-blog.view-list .meta {
+    margin-bottom: 15px;
+  }
+}
 .collection-type-blog.view-item .page-title {
   margin-bottom: 60px;
 }

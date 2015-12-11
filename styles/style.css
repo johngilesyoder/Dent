@@ -7104,6 +7104,22 @@ button.close {
   }
 }
 @media (max-width: 767px) {
+  .footer-logo-wrapper {
+    position: relative;
+    float: left;
+    width: 8.33333333%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .address-wrapper {
+    position: relative;
+    float: left;
+    width: 41.66666667%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .site-footer {
     padding: 100px 0;
   }

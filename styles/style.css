@@ -7104,8 +7104,10 @@ button.close {
   }
 }
 @media (max-width: 767px) {
-  .site-footer .footer-logo {
+  .site-footer .footer-logo-wrapper {
     text-align: center;
+  }
+  .site-footer .footer-logo {
     margin-bottom: 30px;
   }
   .site-footer .address-wrapper {

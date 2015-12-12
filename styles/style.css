@@ -4666,7 +4666,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.75);
 }
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #fff;
@@ -7854,6 +7854,95 @@ body {
   font-size: 18px;
   letter-spacing: 3px;
   border-radius: 3px;
+}
+@media (max-width: 480px) {
+  .collection-layout-contact .location-info {
+    font-size: 13px;
+    margin-bottom: 40px;
+  }
+  .collection-layout-contact .location-info:before,
+  .collection-layout-contact .location-info:after {
+    content: " ";
+    display: table;
+  }
+  .collection-layout-contact .location-info:after {
+    clear: both;
+  }
+  .collection-layout-contact .location-info:before,
+  .collection-layout-contact .location-info:after {
+    content: " ";
+    display: table;
+  }
+  .collection-layout-contact .location-info:after {
+    clear: both;
+  }
+  .collection-layout-contact .location-info .location-title {
+    display: block;
+  }
+  .collection-layout-contact .location-info .location-title:before,
+  .collection-layout-contact .location-info .location-title:after {
+    content: " ";
+    display: table;
+  }
+  .collection-layout-contact .location-info .location-title:after {
+    clear: both;
+  }
+  .collection-layout-contact .location-info .location-title:before,
+  .collection-layout-contact .location-info .location-title:after {
+    content: " ";
+    display: table;
+  }
+  .collection-layout-contact .location-info .location-title:after {
+    clear: both;
+  }
+  .collection-layout-contact .location-info address,
+  .collection-layout-contact .location-info .phone-numbers {
+    float: left;
+    width: 50%;
+  }
+  .collection-layout-contact .location-info address strong,
+  .collection-layout-contact .location-info .phone-numbers strong {
+    margin-right: 4px;
+  }
+  .collection-layout-contact .location-info address {
+    margin-bottom: 10px;
+  }
+  .collection-layout-contact .form-wrapper {
+    padding-top: 30px;
+    border-top: 1px solid #e6e6e6;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .collection-layout-contact .form-wrapper .field-list .fields {
+    margin: 0;
+  }
+  .collection-layout-contact .form-wrapper .title {
+    font-weight: 600;
+    margin-left: 0;
+  }
+  .collection-layout-contact .form-wrapper .caption {
+    font-weight: normal;
+  }
+  .collection-layout-contact .form-wrapper .field.first-name,
+  .collection-layout-contact .form-wrapper .field.last-name {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+  }
+  .collection-layout-contact .form-wrapper .field.first-name label,
+  .collection-layout-contact .form-wrapper .field.last-name label {
+    width: 100%;
+  }
+  .collection-layout-contact .form-wrapper .field.first-name {
+    margin-bottom: 10px;
+  }
+  .collection-layout-contact .form-button-wrapper .button {
+    width: 100%;
+    background-color: #E87641;
+    font-size: 18px;
+    letter-spacing: 3px;
+    border-radius: 3px;
+  }
 }
 .collection-type-blog.view-list .page-title {
   margin-bottom: 60px;

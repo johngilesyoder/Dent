@@ -58,7 +58,73 @@
 @media (max-width: 767px) {}
 
 // Up to landscape phone
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+
+  .collection-layout-contact {
+    .location-info {
+      .clearfix();
+      font-size: 13px;
+       margin-bottom: 40px;
+      .location-title {
+        display: block;
+        .clearfix();
+      }
+      address,
+      .phone-numbers {
+        float: left;
+        width: 50%;
+        strong {
+          margin-right: 4px;
+        }
+      }
+      address {
+        margin-bottom: 10px;
+      }
+    }
+    .form-wrapper {
+      padding-top: 30px;
+      border-top: 1px solid #e6e6e6;
+      padding-bottom: 30px;
+      border-bottom: 1px solid #e6e6e6;
+      .field-list {
+        .fields {
+          margin: 0;
+        }
+      }
+      .title {
+        font-weight: 600;
+        margin-left: 0;
+      }
+      .caption {
+        font-weight: normal;
+      }
+      .field {
+        &.first-name,
+        &.last-name {
+          width: 100%;
+          margin-left: 0;
+          float: none;
+          label {
+            width: 100%;
+          }
+        }
+        &.first-name {
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .form-button-wrapper {
+      .button {
+        width: 100%;
+        background-color: @orange;
+        font-size: 18px;
+        letter-spacing: 3px;
+        border-radius: 3px;
+      }
+    }
+  }
+
+}
 
 
 

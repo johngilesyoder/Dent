@@ -7463,6 +7463,9 @@ body {
   border-color: #222222;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+  .site-header.navbar-inverse .navbar-collapse {
+    background: rgba(0, 0, 0, 0.5);
+  }
   .site-header.navbar-inverse .navbar-collapse .navbar-nav .contact-us a {
     background: transparent;
   }

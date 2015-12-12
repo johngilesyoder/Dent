@@ -7903,6 +7903,8 @@ body {
   }
   .homepage section .section-actions .callout-phone {
     font-size: 14px;
+    display: block;
+    margin-top: 15px;
   }
   .homepage section .section-actions .callout-phone:before {
     content: '';

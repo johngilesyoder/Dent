@@ -101,20 +101,7 @@
   <section class="home-process">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <hgroup>
-            <h2 class="section-title">Our process</h2>
-            <h3 class="section-statement">Our 13 Step Process to your Financial Security</h3>
-          </hgroup>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur blandit tempus porttitor. 
-          </p>
-          <div class="section-actions">
-            <a href="/contact-us/" class="btn btn-primary btn-contact">Contact us now</a>
-            <span class="callout-phone">or call us at <strong>{websiteSettings.contactPhoneNumber}</strong></span>
-          </div>
-        </div>
-        <div class="col-md-5 col-md-offset-1">
+        <div class="col-md-5 col-md-offset-1 col-md-push-6">
           <div class="napkin-carousel">
             <div id="carousel-napkins" class="carousel slide" data-ride="carousel" data-interval="4000">
               <!-- Wrapper for slides -->
@@ -173,6 +160,19 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-md-pull-6">
+          <hgroup>
+            <h2 class="section-title">Our process</h2>
+            <h3 class="section-statement">Our 13 Step Process to your Financial Security</h3>
+          </hgroup>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur blandit tempus porttitor. 
+          </p>
+          <div class="section-actions">
+            <a href="/contact-us/" class="btn btn-primary btn-contact">Contact us now</a>
+            <span class="callout-phone">or call us at <strong>{websiteSettings.contactPhoneNumber}</strong></span>
           </div>
         </div>
       </div>

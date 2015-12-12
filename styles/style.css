@@ -7893,7 +7893,10 @@ body {
     margin: 0;
     width: 100%;
     padding: 0 30px;
-    bottom: 75px;
+    bottom: 35px;
+  }
+  .homepage .home-hero .real-clients {
+    margin-top: 10px;
   }
   .homepage .home-who {
     background-image: none;

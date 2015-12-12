@@ -7913,12 +7913,18 @@ body {
     padding-bottom: 30px;
     border-bottom: 1px solid #e6e6e6;
   }
+  .collection-layout-contact .form-wrapper .field-list .title {
+    font-weight: 600;
+    margin-left: 0;
+    font-size: 16px;
+  }
   .collection-layout-contact .form-wrapper .field-list .fields {
     margin: 0;
   }
   .collection-layout-contact .form-wrapper .field-list .fields .title {
     font-weight: 600;
     margin-left: 0;
+    font-size: 16px;
   }
   .collection-layout-contact .form-wrapper .field-list .fields .field.first-name,
   .collection-layout-contact .form-wrapper .field-list .fields .field.last-name {

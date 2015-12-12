@@ -7842,6 +7842,10 @@ body {
   .homepage .home-who {
     background-image: none;
   }
+  .homepage .home-who iframe {
+    width: 100%;
+    height: 400px;
+  }
   .homepage .home-quote {
     height: 550px;
     background-position: 35% 50%;

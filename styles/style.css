@@ -7775,6 +7775,9 @@ body {
 .homepage .home-process .section-actions {
   margin-top: 100px;
 }
+.homepage .home-process .actions-right {
+  display: none;
+}
 .homepage .home-process .napkin-carousel {
   background: #599B2C;
   border-radius: 8px;
@@ -8012,6 +8015,12 @@ body {
   .homepage .home-process .section-actions {
     margin-top: 30px;
     margin-bottom: 30px;
+  }
+  .homepage .home-process .actions-left {
+    display: none;
+  }
+  .homepage .home-process .actions-right {
+    display: block;
   }
   .homepage .home-process .napkin-carousel {
     height: auto;

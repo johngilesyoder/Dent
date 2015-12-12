@@ -7959,6 +7959,9 @@ body {
   .homepage .home-who {
     border-bottom-color: #3B691D;
   }
+  .homepage .home-who .section-actions {
+    margin-top: 30px;
+  }
   .homepage .home-quote {
     background-image: none;
     background-color: #599B2C;

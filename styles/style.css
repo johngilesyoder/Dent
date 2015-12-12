@@ -7951,12 +7951,18 @@ body {
   .homepage .home-different .table-comparison tbody tr td {
     width: 80px;
   }
-  .homepage .home-process {
-    padding: 30px 0;
+  .homepage .home-process p {
+    display: none;
   }
   .homepage .home-process .section-actions {
     margin-top: 30px;
     margin-bottom: 30px;
+  }
+  .homepage .home-process .actions-left {
+    display: none;
+  }
+  .homepage .home-process .actions-right {
+    display: block;
   }
   .homepage .home-process .napkin-carousel {
     width: 450px;

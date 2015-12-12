@@ -89,6 +89,20 @@
       .field-list {
         .fields {
           margin: 0;
+          .field {
+            &.first-name,
+            &.last-name {
+              width: 100%;
+              margin-left: 0;
+              float: none;
+              label {
+                width: 100%;
+              }
+            }
+            &.first-name {
+              margin-bottom: 10px;
+            }
+          }
         }
       }
       .title {
@@ -97,20 +111,6 @@
       }
       .caption {
         font-weight: normal;
-      }
-      .field {
-        &.first-name,
-        &.last-name {
-          width: 100%;
-          margin-left: 0;
-          float: none;
-          label {
-            width: 100%;
-          }
-        }
-        &.first-name {
-          margin-bottom: 10px;
-        }
       }
     }
     .form-button-wrapper {

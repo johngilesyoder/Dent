@@ -7916,25 +7916,25 @@ body {
   .collection-layout-contact .form-wrapper .field-list .fields {
     margin: 0;
   }
+  .collection-layout-contact .form-wrapper .field-list .fields .field.first-name,
+  .collection-layout-contact .form-wrapper .field-list .fields .field.last-name {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+  }
+  .collection-layout-contact .form-wrapper .field-list .fields .field.first-name label,
+  .collection-layout-contact .form-wrapper .field-list .fields .field.last-name label {
+    width: 100%;
+  }
+  .collection-layout-contact .form-wrapper .field-list .fields .field.first-name {
+    margin-bottom: 10px;
+  }
   .collection-layout-contact .form-wrapper .title {
     font-weight: 600;
     margin-left: 0;
   }
   .collection-layout-contact .form-wrapper .caption {
     font-weight: normal;
-  }
-  .collection-layout-contact .form-wrapper .field.first-name,
-  .collection-layout-contact .form-wrapper .field.last-name {
-    width: 100%;
-    margin-left: 0;
-    float: none;
-  }
-  .collection-layout-contact .form-wrapper .field.first-name label,
-  .collection-layout-contact .form-wrapper .field.last-name label {
-    width: 100%;
-  }
-  .collection-layout-contact .form-wrapper .field.first-name {
-    margin-bottom: 10px;
   }
   .collection-layout-contact .form-button-wrapper .button {
     width: 100%;

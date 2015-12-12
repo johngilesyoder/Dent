@@ -63,7 +63,6 @@
 
   .site-header.navbar-inverse {
     .navbar-collapse {
-      background: rgba(0, 0, 0, .5);
       .navbar-nav {
         .contact-us {
           a {
@@ -80,10 +79,44 @@
 }
 
 // Tablet to desktop
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .site-header.navbar-inverse {
+    .navbar-collapse {
+      .navbar-nav {
+        .contact-us {
+          a {
+            background: transparent;
+            &:hover {
+              background: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
 
 // Up to tablet
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+
+  .site-header.navbar-inverse {
+    .navbar-collapse {
+      .navbar-nav {
+        .contact-us {
+          a {
+            background: transparent;
+            &:hover {
+              background: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+}
 
 // Up to landscape phone
 @media (max-width: 480px) {}

@@ -7791,6 +7791,11 @@ body {
   margin-bottom: 10px;
   display: block;
 }
+@media (min-width: 1200px) and (max-width: 1350px) {
+  .homepage .home-who {
+    background-position: 180% 100%;
+  }
+}
 @media (min-width: 992px) and (max-width: 1199px) {
   .homepage section {
     border-bottom: 4px solid #222222;

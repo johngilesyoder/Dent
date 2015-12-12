@@ -7920,6 +7920,9 @@ body {
     font-weight: 600;
     margin-left: 0;
   }
+  .collection-layout-contact .form-wrapper .field-list .fields .field {
+    margin-left: 0;
+  }
   .collection-layout-contact .form-wrapper .field-list .fields .field.first-name,
   .collection-layout-contact .form-wrapper .field-list .fields .field.last-name {
     width: 100%;

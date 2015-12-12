@@ -7324,6 +7324,18 @@ body {
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+  .site-header .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 0 30px;
+  }
+  .site-header .container > .navbar-header,
+  .site-header .container > .navbar-collapse {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
   .site-header .navbar-header .site-phone {
     font-size: 16px;
   }
@@ -7345,6 +7357,13 @@ body {
   }
   .site-header .navbar-collapse .navbar-nav .contact-us.active a {
     border-color: #222222;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) and (min-width: 992px) {
+  .site-header .container > .navbar-header,
+  .site-header .container > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 @media (max-width: 767px) {

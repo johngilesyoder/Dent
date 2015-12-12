@@ -7882,40 +7882,10 @@ body {
 @media (max-width: 767px) {
   .homepage section .section-statement {
     font-size: 36px;
-    margin: 0 0 25px;
-  }
-  .homepage section .section-actions .btn-contact {
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 3px;
-    padding: 12px 15px;
-    margin-right: 30px;
-  }
-  .homepage section .section-actions .btn-contact:after {
-    content: '';
-    display: inline-block;
-    width: 13px;
-    height: 21px;
-    background-image: url('/assets/icon-chevron-r-white.svg');
-    background-size: 13px;
-    margin-left: 40px;
-    vertical-align: middle;
   }
   .homepage section .section-actions .callout-phone {
-    font-size: 14px;
     display: block;
     margin-top: 15px;
-  }
-  .homepage section .section-actions .callout-phone:before {
-    content: '';
-    background-image: url('/assets/icon-phone-orange.svg');
-    width: 17px;
-    height: 17px;
-    display: inline-block;
-    margin-right: 8px;
-    vertical-align: middle;
-    position: relative;
-    top: -1px;
   }
   .homepage .home-hero {
     height: 450px;
@@ -7957,6 +7927,23 @@ body {
   }
   .homepage .home-quote .quote .quote-logo {
     display: none;
+  }
+  .homepage .home-different {
+    padding: 30px 0;
+  }
+  .homepage .home-different .table-comparison thead th:first-child {
+    padding-right: 15px;
+  }
+  .homepage .home-different .table-comparison thead th:nth-child(2),
+  .homepage .home-different .table-comparison thead th:nth-child(3) {
+    width: 80px;
+  }
+  .homepage .home-different .table-comparison tbody tr th,
+  .homepage .home-different .table-comparison tbody tr th {
+    padding-right: 15px;
+  }
+  .homepage .home-different .table-comparison tbody tr td {
+    width: 80px;
   }
 }
 .collection-layout-contact .location-info {

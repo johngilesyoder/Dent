@@ -7797,72 +7797,10 @@ body {
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .homepage section {
-    border-bottom: 4px solid #222222;
-  }
-  .homepage section .section-title {
-    font-size: 14px;
-    color: #599B2C;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 3px;
-    margin: 0 0 10px;
-  }
-  .homepage section .section-title:after {
-    content: '';
-    display: inline-block;
-    background-image: url('/assets/logo-mark-green.svg');
-    width: 20px;
-    height: 20px;
-    background-size: 20px;
-    margin-left: 8px;
-    vertical-align: middle;
-    position: relative;
-    top: -2px;
-  }
-  .homepage section .section-statement {
-    font-size: 48px;
-    font-family: 'Adobe Garamond Pro', Garamond, Georgia, "Times New Roman", Times, serif;
-    font-weight: 500;
-    margin: 0 0 25px;
-  }
-  .homepage section .section-actions .btn-contact {
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 3px;
-    padding: 12px 15px;
-    margin-right: 30px;
-  }
-  .homepage section .section-actions .btn-contact:after {
-    content: '';
-    display: inline-block;
-    width: 13px;
-    height: 21px;
-    background-image: url('/assets/icon-chevron-r-white.svg');
-    background-size: 13px;
-    margin-left: 40px;
-    vertical-align: middle;
-  }
-  .homepage section .section-actions .callout-phone {
-    font-size: 14px;
-  }
-  .homepage section .section-actions .callout-phone:before {
-    content: '';
-    background-image: url('/assets/icon-phone-orange.svg');
-    width: 17px;
-    height: 17px;
-    display: inline-block;
-    margin-right: 8px;
-    vertical-align: middle;
-    position: relative;
-    top: -1px;
-  }
   .homepage .home-hero {
     height: 650px;
   }
   .homepage .home-who {
-    padding: 75px 0;
-    background-image: url('/assets/who-bg.jpg?13');
     background-size: auto 75%;
     background-position: 100% 100%;
   }

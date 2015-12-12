@@ -7461,10 +7461,10 @@ body {
   border-color: #222222;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .site-header .navbar-collapse .navbar-nav .contact-us a {
+  .site-header.navbar-inverse .navbar-collapse .navbar-nav .contact-us a {
     background: transparent;
   }
-  .site-header .navbar-collapse .navbar-nav .contact-us a:hover {
+  .site-header.navbar-inverse .navbar-collapse .navbar-nav .contact-us a:hover {
     background: transparent;
   }
 }

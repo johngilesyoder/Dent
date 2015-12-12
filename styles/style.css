@@ -7871,7 +7871,7 @@ body {
   }
 }
 .collection-type-blog.view-item .page-title {
-  margin-bottom: 60px;
+  display: none;
 }
 .collection-type-blog.view-item .alert-filter {
   margin-top: -40px;
@@ -7935,6 +7935,24 @@ body {
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+@media (max-width: 767px) {
+  .collection-type-blog.view-item .alert-filter {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  .collection-type-blog.view-item .title {
+    font-size: 30px;
+  }
+  .collection-type-blog.view-item .meta {
+    margin-bottom: 15px;
+  }
+  .collection-type-blog.view-item .squarespace-social-buttons {
+    display: block;
+  }
+  .collection-type-blog.view-item .squarespace-social-buttons .ss-social-button-wrapper {
+    margin-left: 0;
+  }
 }
 .collection-type-team.view-list .page-title {
   margin-bottom: 60px;

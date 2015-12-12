@@ -3,7 +3,7 @@
 
 .collection-type-blog.view-item {
   .page-title {
-    margin-bottom: 60px;
+    display: none;
   }
   .alert-filter {
     margin-top: -40px;
@@ -85,7 +85,28 @@
 @media (min-width: 768px) and (max-width: 991px) {}
 
 // Up to tablet
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+
+  .collection-type-blog.view-item {
+    .alert-filter {
+      margin-top: 0px;
+      margin-bottom: 30px;
+    }
+    .title {
+      font-size: 30px;
+    }
+    .meta {
+      margin-bottom: 15px;
+    }
+    .squarespace-social-buttons {
+      display: block;
+      .ss-social-button-wrapper {
+        margin-left: 0;
+      }
+    }
+  }
+
+}
 
 // Up to landscape phone
 @media (max-width: 480px) {}

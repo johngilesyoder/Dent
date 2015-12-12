@@ -7879,6 +7879,25 @@ body {
     margin: 0 auto;
   }
 }
+@media (max-width: 767px) {
+  .homepage .home-hero {
+    height: 100vh;
+  }
+  .homepage .home-hero h2 {
+    font-size: 30px;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    padding: 0 30px;
+    bottom: 75px;
+  }
+  .homepage .home-who {
+    background-image: none;
+  }
+  .homepage .home-who iframe {
+    width: 100%;
+  }
+}
 .collection-layout-contact .location-info {
   font-size: 13px;
   margin-bottom: 40px;

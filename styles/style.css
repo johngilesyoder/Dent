@@ -7819,6 +7819,10 @@ body {
   .homepage .home-process .section-actions {
     margin-top: 80px;
   }
+  .homepage .home-process .section-actions .callout-phone {
+    display: block;
+    margin-top: 15px;
+  }
   .homepage .home-process .napkin-carousel {
     height: 467px;
   }

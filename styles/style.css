@@ -7855,58 +7855,7 @@ body {
   letter-spacing: 3px;
   border-radius: 3px;
 }
-@media (max-width: 480px) {
-  .collection-layout-contact .location-info {
-    font-size: 13px;
-    margin-bottom: 40px;
-  }
-  .collection-layout-contact .location-info:before,
-  .collection-layout-contact .location-info:after {
-    content: " ";
-    display: table;
-  }
-  .collection-layout-contact .location-info:after {
-    clear: both;
-  }
-  .collection-layout-contact .location-info:before,
-  .collection-layout-contact .location-info:after {
-    content: " ";
-    display: table;
-  }
-  .collection-layout-contact .location-info:after {
-    clear: both;
-  }
-  .collection-layout-contact .location-info .location-title {
-    display: block;
-  }
-  .collection-layout-contact .location-info .location-title:before,
-  .collection-layout-contact .location-info .location-title:after {
-    content: " ";
-    display: table;
-  }
-  .collection-layout-contact .location-info .location-title:after {
-    clear: both;
-  }
-  .collection-layout-contact .location-info .location-title:before,
-  .collection-layout-contact .location-info .location-title:after {
-    content: " ";
-    display: table;
-  }
-  .collection-layout-contact .location-info .location-title:after {
-    clear: both;
-  }
-  .collection-layout-contact .location-info address,
-  .collection-layout-contact .location-info .phone-numbers {
-    float: left;
-    width: 50%;
-  }
-  .collection-layout-contact .location-info address strong,
-  .collection-layout-contact .location-info .phone-numbers strong {
-    margin-right: 4px;
-  }
-  .collection-layout-contact .location-info address {
-    margin-bottom: 10px;
-  }
+@media (max-width: 767px) {
   .collection-layout-contact .form-wrapper {
     padding-top: 30px;
     border-top: 1px solid #e6e6e6;

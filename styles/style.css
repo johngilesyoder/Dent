@@ -7330,6 +7330,8 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     padding: 0 30px;
+    padding: 0 15px;
+    width: 100%;
   }
   .site-header .container > .navbar-header,
   .site-header .container > .navbar-collapse {

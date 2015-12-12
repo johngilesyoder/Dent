@@ -7440,6 +7440,10 @@ body {
   z-index: 10;
   width: 100%;
 }
+.site-header.navbar-inverse a[href^="tel"] {
+  color: #fff;
+  text-decoration: none;
+}
 .site-header.navbar-inverse .navbar-header .navbar-brand .site-logo {
   background-image: url('/assets/site-logo-inverted.png');
 }

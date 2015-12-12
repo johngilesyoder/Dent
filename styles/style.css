@@ -7880,8 +7880,43 @@ body {
   }
 }
 @media (max-width: 767px) {
+  .homepage section .section-statement {
+    font-size: 36px;
+    margin: 0 0 25px;
+  }
+  .homepage section .section-actions .btn-contact {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    padding: 12px 15px;
+    margin-right: 30px;
+  }
+  .homepage section .section-actions .btn-contact:after {
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 21px;
+    background-image: url('/assets/icon-chevron-r-white.svg');
+    background-size: 13px;
+    margin-left: 40px;
+    vertical-align: middle;
+  }
+  .homepage section .section-actions .callout-phone {
+    font-size: 14px;
+  }
+  .homepage section .section-actions .callout-phone:before {
+    content: '';
+    background-image: url('/assets/icon-phone-orange.svg');
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+  }
   .homepage .home-hero {
-    height: 100vh;
+    height: 450px;
   }
   .homepage .home-hero h2 {
     font-size: 30px;

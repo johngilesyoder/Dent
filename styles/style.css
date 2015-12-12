@@ -7860,11 +7860,12 @@ body {
   }
   .homepage .home-process .section-actions {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
   .homepage .home-process .napkin-carousel {
     width: 450px;
-    height: 467px;
+    height: auto;
+    margin: 0 auto;
   }
 }
 .collection-layout-contact .location-info {

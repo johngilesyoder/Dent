@@ -7773,6 +7773,10 @@ body {
   color: #fff;
   border-bottom-color: #81BF58;
 }
+.homepage .home-process a[href^="tel"] {
+  color: #fff;
+  text-decoration: none;
+}
 .homepage .home-process .section-title {
   color: #9BE66A;
 }

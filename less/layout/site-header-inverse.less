@@ -59,7 +59,24 @@
 @media (min-width: 1200px) {}
 
 // Desktop to large desktop
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .site-header {
+    .navbar-collapse {
+      .navbar-nav {
+        .contact-us {
+          a {
+            background: transparent;
+            &:hover {
+              background: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
 
 // Tablet to desktop
 @media (min-width: 768px) and (max-width: 991px) {}

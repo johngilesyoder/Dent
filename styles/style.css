@@ -7966,6 +7966,9 @@ body {
     margin-top: 30px;
     text-align: center;
   }
+  .homepage .home-process .section-actions .btn-contact {
+    margin-right: 0;
+  }
   .homepage .home-process .actions-left {
     display: none;
   }

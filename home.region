@@ -7,7 +7,7 @@
   <section class="home-who">
     <div class="container">
       <div class="row">
-        <hgroup class="col-md-9">
+        <hgroup class="col-md-12 col-lg-9">
           <h2 class="section-title">Who we are</h2>
           <h3 class="section-statement">Uncommon insight, exceptional capabilities, and innovative thinking working for you.</h3>
         </hgroup>

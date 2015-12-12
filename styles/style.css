@@ -7938,9 +7938,9 @@ body {
   .homepage .home-different .table-comparison thead th:nth-child(3) {
     width: 80px;
   }
-  .homepage .home-different .table-comparison tbody tr th,
   .homepage .home-different .table-comparison tbody tr th {
     padding-right: 15px;
+    font-size: 16px;
   }
   .homepage .home-different .table-comparison tbody tr td {
     width: 80px;

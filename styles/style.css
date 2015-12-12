@@ -7816,6 +7816,12 @@ body {
   .homepage .home-quote .quote .quote-logo img {
     width: 100%;
   }
+  .homepage .home-process .section-actions {
+    margin-top: 80px;
+  }
+  .homepage .home-process .napkin-carousel {
+    height: 467px;
+  }
 }
 .collection-layout-contact .location-info {
   font-size: 13px;

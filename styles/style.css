@@ -7991,6 +7991,9 @@ body {
   .homepage .home-process {
     padding: 30px 0;
   }
+  .homepage .home-process .section-actions {
+    margin-top: 30px;
+  }
 }
 .collection-layout-contact .location-info {
   font-size: 13px;

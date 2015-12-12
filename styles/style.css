@@ -7947,6 +7947,9 @@ body {
   }
 }
 @media (max-width: 480px) {
+  .homepage section .section-statement {
+    font-size: 30px;
+  }
   .homepage .home-hero {
     height: 350px;
   }

@@ -7939,9 +7939,10 @@ body {
   }
   .homepage .home-quote .quote {
     right: 15px;
+    left: 15px;
     bottom: 15px;
     top: auto;
-    width: 80%;
+    width: auto;
     margin-top: 0;
     height: auto;
   }
@@ -7952,9 +7953,8 @@ body {
     font-size: 21px;
     line-height: 1.25em;
   }
-  .homepage .home-quote .quote .quote-logo img {
-    height: 30px;
-    width: auto;
+  .homepage .home-quote .quote .quote-logo {
+    display: none;
   }
 }
 .collection-layout-contact .location-info {

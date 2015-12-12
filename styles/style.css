@@ -7804,6 +7804,13 @@ body {
     background-size: auto 75%;
     background-position: 100% 100%;
   }
+  .homepage .home-quote {
+    height: 650px;
+    background-position: 35% 50%;
+  }
+  .homepage .home-quote .quote {
+    right: 5%;
+  }
 }
 .collection-layout-contact .location-info {
   font-size: 13px;

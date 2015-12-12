@@ -7928,9 +7928,33 @@ body {
   }
   .homepage .home-who {
     background-image: none;
+    padding: 30px 0;
   }
   .homepage .home-who iframe {
     width: 100%;
+  }
+  .homepage .home-quote {
+    height: 450px;
+    background-position: 25% 50%;
+  }
+  .homepage .home-quote .quote {
+    right: 15px;
+    bottom: 15px;
+    top: auto;
+    width: 80%;
+    margin-top: 0;
+    height: auto;
+  }
+  .homepage .home-quote .quote blockquote {
+    font-size: 16px;
+  }
+  .homepage .home-quote .quote blockquote p {
+    font-size: 21px;
+    line-height: 1.25em;
+  }
+  .homepage .home-quote .quote .quote-logo img {
+    height: 30px;
+    width: auto;
   }
 }
 .collection-layout-contact .location-info {

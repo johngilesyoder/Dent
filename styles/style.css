@@ -7870,6 +7870,9 @@ body {
     margin-left: 0;
   }
 }
+.collection-type-blog.view-item .back-to-blog {
+  margin-bottom: 30px;
+}
 .collection-type-blog.view-item .page-title {
   display: none;
 }

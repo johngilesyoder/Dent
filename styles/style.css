@@ -7872,6 +7872,7 @@ body {
 }
 .collection-type-blog.view-item .back-to-blog {
   margin-bottom: 30px;
+  display: block;
 }
 .collection-type-blog.view-item .page-title {
   display: none;

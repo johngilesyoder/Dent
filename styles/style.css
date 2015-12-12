@@ -7805,11 +7805,16 @@ body {
     background-position: 100% 100%;
   }
   .homepage .home-quote {
-    height: 650px;
+    height: 550px;
     background-position: 35% 50%;
   }
   .homepage .home-quote .quote {
     right: 5%;
+    width: 300px;
+    margin-top: -236px;
+  }
+  .homepage .home-quote .quote .quote-logo {
+    width: 100%;
   }
 }
 .collection-layout-contact .location-info {

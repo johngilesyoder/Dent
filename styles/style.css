@@ -7929,19 +7929,9 @@ body {
   .collection-layout-contact .form-wrapper .field-list .fields .field.first-name {
     margin-bottom: 10px;
   }
-  .collection-layout-contact .form-wrapper .title {
+  .collection-layout-contact .form-wrapper .field-list .fields .field .title {
     font-weight: 600;
     margin-left: 0;
-  }
-  .collection-layout-contact .form-wrapper .caption {
-    font-weight: normal;
-  }
-  .collection-layout-contact .form-button-wrapper .button {
-    width: 100%;
-    background-color: #E87641;
-    font-size: 18px;
-    letter-spacing: 3px;
-    border-radius: 3px;
   }
 }
 .collection-type-blog.view-list .page-title {

@@ -7916,6 +7916,10 @@ body {
   .collection-layout-contact .form-wrapper .field-list .fields {
     margin: 0;
   }
+  .collection-layout-contact .form-wrapper .field-list .fields .title {
+    font-weight: 600;
+    margin-left: 0;
+  }
   .collection-layout-contact .form-wrapper .field-list .fields .field.first-name,
   .collection-layout-contact .form-wrapper .field-list .fields .field.last-name {
     width: 100%;
@@ -7928,10 +7932,6 @@ body {
   }
   .collection-layout-contact .form-wrapper .field-list .fields .field.first-name {
     margin-bottom: 10px;
-  }
-  .collection-layout-contact .form-wrapper .field-list .fields .field .title {
-    font-weight: 600;
-    margin-left: 0;
   }
 }
 .collection-type-blog.view-list .page-title {

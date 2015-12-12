@@ -7879,6 +7879,7 @@ body {
 }
 .collection-type-blog.view-item .title {
   font-size: 36px;
+  margin-top: 0;
 }
 .collection-type-blog.view-item .hentry {
   margin-bottom: 30px;

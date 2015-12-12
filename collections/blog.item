@@ -1,6 +1,8 @@
 
 {.section item}
 
+  <a href="/blog" class="back-to-blog">&larr; Back to blog</a>
+
   <!--WRAPPER-->
   
   <article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">

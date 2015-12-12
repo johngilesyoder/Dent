@@ -7946,6 +7946,11 @@ body {
     width: 80px;
   }
 }
+@media (max-width: 480px) {
+  .homepage .home-different {
+    display: none;
+  }
+}
 .collection-layout-contact .location-info {
   font-size: 13px;
   margin-bottom: 40px;

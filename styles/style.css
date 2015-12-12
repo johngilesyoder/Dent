@@ -7948,6 +7948,16 @@ body {
   .homepage .home-different .table-comparison tbody tr td {
     width: 80px;
   }
+  .homepage .home-process {
+    padding: 30px 0;
+  }
+  .homepage .home-process .section-actions {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .homepage .home-process .napkin-carousel {
+    height: auto;
+  }
 }
 @media (max-width: 480px) {
   .homepage section .section-statement {

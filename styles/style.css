@@ -7995,6 +7995,9 @@ body {
     margin-top: 30px;
     margin-bottom: 30px;
   }
+  .homepage .home-process .napkin-carousel {
+    height: auto;
+  }
 }
 .collection-layout-contact .location-info {
   font-size: 13px;

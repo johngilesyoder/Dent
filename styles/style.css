@@ -7942,12 +7942,9 @@ body {
   letter-spacing: 2px;
 }
 @media (max-width: 767px) {
-  .collection-type-blog.view-item .alert-filter {
-    margin-top: 0px;
-    margin-bottom: 30px;
-  }
   .collection-type-blog.view-item .title {
     font-size: 30px;
+    line-height: 1.25em;
   }
   .collection-type-blog.view-item .meta {
     margin-bottom: 15px;

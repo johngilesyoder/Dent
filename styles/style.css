@@ -7947,6 +7947,32 @@ body {
   }
 }
 @media (max-width: 480px) {
+  .homepage .home-who {
+    border-bottom-color: #3B691D;
+  }
+  .homepage .home-quote {
+    background-image: none;
+    background-color: #599B2C;
+    height: auto;
+  }
+  .homepage .home-quote .quote {
+    position: static;
+    padding: 50px 30px;
+  }
+  .homepage .home-quote .quote blockquote {
+    border: 0;
+    background: transparent;
+    padding: 0;
+  }
+  .homepage .home-quote .quote blockquote p {
+    color: #fff;
+  }
+  .homepage .home-quote .quote blockquote footer {
+    color: #fff;
+  }
+  .homepage .home-quote .quote .quote-logo {
+    display: none;
+  }
   .homepage .home-different {
     display: none;
   }

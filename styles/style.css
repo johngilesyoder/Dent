@@ -7471,6 +7471,9 @@ body {
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+  .site-header.navbar-inverse .navbar-collapse {
+    background: rgba(0, 0, 0, 0.5);
+  }
   .site-header.navbar-inverse .navbar-collapse .navbar-nav .contact-us a {
     background: transparent;
   }
@@ -7479,6 +7482,9 @@ body {
   }
 }
 @media (max-width: 767px) {
+  .site-header.navbar-inverse .navbar-collapse {
+    background: rgba(0, 0, 0, 0.5);
+  }
   .site-header.navbar-inverse .navbar-collapse .navbar-nav .contact-us a {
     background: transparent;
   }

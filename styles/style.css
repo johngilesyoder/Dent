@@ -7646,11 +7646,8 @@ body {
   text-shadow: 0 1px 17px rgba(0, 0, 0, 0.5);
 }
 .homepage .home-hero .real-clients {
-  color: #fff;
-  font-family: 'Adobe Garamond Pro', Garamond, Georgia, "Times New Roman", Times, serif;
-  position: absolute;
-  right: 10%;
-  top: 30%;
+  font-size: 16px;
+  display: block;
 }
 .homepage .home-who {
   padding: 75px 0;

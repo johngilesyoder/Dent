@@ -1,8 +1,10 @@
 <!--Content injection point.-->
 <main id="content" class="content" role="main" data-content-field="main-content">
   <section class="home-hero">
-    <h2 class="hero-statement">Your financial success is an ongoing process — <em>not a product</em>.</h2>
-    <span class="real-clients">* Real clients &mdash; <em>not stock photos</em></span>
+    <h2 class="hero-statement">
+      Your financial success is an ongoing process — <em>not a product</em>.
+      <span class="real-clients">* Real clients &mdash; <em>not stock photos</em></span>
+    </h2>
   </section>
   <section class="home-who">
     <div class="container">

@@ -7797,6 +7797,9 @@ body {
   .homepage .home-hero {
     height: 650px;
   }
+  .homepage .home-hero h2 {
+    bottom: 50px;
+  }
   .homepage .home-who {
     background-size: auto 75%;
     background-position: 100% 100%;

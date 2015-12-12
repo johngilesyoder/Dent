@@ -7956,7 +7956,9 @@ body {
     margin-bottom: 30px;
   }
   .homepage .home-process .napkin-carousel {
+    width: 450px;
     height: auto;
+    margin: 0 auto;
   }
 }
 @media (max-width: 480px) {
@@ -8010,6 +8012,7 @@ body {
   }
   .homepage .home-process .napkin-carousel {
     height: auto;
+    width: 100%;
   }
 }
 .collection-layout-contact .location-info {

@@ -7791,7 +7791,7 @@ body {
   margin-bottom: 10px;
   display: block;
 }
-@media (min-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .homepage section {
     border-bottom: 4px solid #222222;
   }

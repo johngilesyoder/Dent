@@ -7848,15 +7848,26 @@ body {
   }
   .homepage .home-quote {
     height: 550px;
-    background-position: 35% 50%;
+    background-position: 50% 50%;
   }
   .homepage .home-quote .quote {
-    right: 5%;
-    width: 300px;
-    margin-top: -236px;
+    right: 30px;
+    bottom: 30px;
+    top: auto;
+    width: 600px;
+    margin-top: 0;
+    height: auto;
+  }
+  .homepage .home-quote .quote blockquote {
+    font-size: 18px;
+  }
+  .homepage .home-quote .quote blockquote p {
+    font-size: 24px;
+    line-height: 1.25em;
   }
   .homepage .home-quote .quote .quote-logo img {
-    width: 100%;
+    height: 30px;
+    width: auto;
   }
   .homepage .home-process .section-actions {
     margin-top: 30px;

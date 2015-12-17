@@ -11,8 +11,9 @@
       <div class="row">
         <hgroup class="col-md-12 col-lg-9">
           <h2 class="section-title">Who we are</h2>
-          <h3 class="section-statement">Uncommon insight, exceptional capabilities, and innovative thinking working for you.</h3>
+          <h3 class="section-statement">Looking to change advisors? Transferring your accounts to us is easier than you think.</h3>
         </hgroup>
+        <p>Call us to get a second opinion to make sure that you are on the right track.</p>
         <div class="col-md-8">
           <iframe src="https://player.vimeo.com/video/147452700?title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
           <div class="section-actions">
@@ -107,7 +108,10 @@
             <h3 class="section-statement">Our 13 Step Process to your Financial Security</h3>
           </hgroup>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur blandit tempus porttitor. 
+            There is no such thing as a free dinner. That's why we don't host fancy seminars at upscale restaurants to impress you.* Instead, we invite you into our office to have a face to face meeting to see if there is a natural fit between your unique needs and the services we can provide to you and your family. 
+          </p>
+          <p>
+            <small>* but we will offer you coffee or water.</small>
           </p>
           <div class="section-actions actions-left">
             <a href="/contact-us/" class="btn btn-primary btn-contact">Contact us now</a>
@@ -116,7 +120,7 @@
         </div>
         <div class="col-md-5 col-md-offset-1">
           <div class="napkin-carousel">
-            <div id="carousel-napkins" class="carousel slide" data-ride="carousel" data-interval="4000">
+            <div id="carousel-napkins" class="carousel slide" data-ride="carousel" data-interval="6500">
               <!-- Wrapper for slides -->
               <div class="carousel-inner">
                 <div class="item active">

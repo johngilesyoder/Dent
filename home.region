@@ -118,7 +118,7 @@
           </div>
         </div>
         <div class="col-md-5 col-md-offset-1">
-          IMG
+          <img class="img-responsive" src="/assets/coffee.jpg">
           <!-- <div class="napkin-carousel">
             <div id="carousel-napkins" class="carousel slide" data-ride="carousel" data-interval="6500">
               <div class="carousel-inner">

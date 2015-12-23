@@ -7799,6 +7799,13 @@ body {
 .homepage .home-process .actions-right {
   display: none;
 }
+.homepage .home-process .coffee-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 7px solid #222;
+  border-radius: 6px;
+}
 .homepage .home-process .napkin-carousel {
   background: #599B2C;
   border-radius: 8px;

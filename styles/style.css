@@ -7750,19 +7750,20 @@ body {
 }
 .homepage .home-different .table-comparison tbody tr th,
 .homepage .home-different .table-comparison tbody tr td {
-  font-weight: 400;
   border-top-color: #e6e6e6;
   padding: 15px;
 }
 .homepage .home-different .table-comparison tbody tr th {
   padding-left: 0;
   padding-right: 30px;
+  font-weight: 500;
 }
 .homepage .home-different .table-comparison tbody tr td {
   width: 130px;
   text-align: center;
   vertical-align: middle;
   background: #f5f5f5;
+  font-weight: 400;
 }
 .homepage .home-different .table-comparison tbody tr td img {
   height: 20px;

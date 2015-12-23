@@ -118,9 +118,9 @@
           </div>
         </div>
         <div class="col-md-5 col-md-offset-1">
-          <div class="napkin-carousel">
+          IMG
+          <!-- <div class="napkin-carousel">
             <div id="carousel-napkins" class="carousel slide" data-ride="carousel" data-interval="6500">
-              <!-- Wrapper for slides -->
               <div class="carousel-inner">
                 <div class="item active">
                   <span class="caption">1. Your role</span>
@@ -176,7 +176,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="section-actions actions-right">
             <a href="/contact-us/" class="btn btn-primary btn-contact">Contact us now</a>
             <span class="callout-phone">or call us at <strong>{websiteSettings.contactPhoneNumber}</strong></span>

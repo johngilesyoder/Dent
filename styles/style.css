@@ -7790,6 +7790,9 @@ body {
 .homepage .home-process .section-title {
   color: #9BE66A;
 }
+.homepage .home-process p {
+  font-size: 21px;
+}
 .homepage .home-process .section-actions {
   margin-top: 100px;
 }

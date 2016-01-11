@@ -14,7 +14,7 @@
     <!--POST META-->
     
     <div class="meta">
-      <p>Published on <strong><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></strong><!--  by <a href="?author={author.id}">{author.displayName}</a> -->.
+      <p>Published on <strong><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></strong><!--  by <a href="?author={author.id}">{author.displayName}</a> -->.&nbsp;&nbsp;
       {.section sourceUrl}
         <a href="{@}" class="source" target="_blank">Source</a>.
       {.end}

@@ -57,6 +57,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/hero-bg-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.01719e+06,
+		"inputAbbreviatedPath": "\/assets\/hero-bg-5.jpg",
+		"outputAbbreviatedPath": "\/assets\/hero-bg-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/hero-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

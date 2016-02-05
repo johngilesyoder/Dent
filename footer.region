@@ -40,11 +40,10 @@
           <div class="row">
             <div class="company-wrapper">
               <div class="footer-company">
-                © 2015 Dent Asset Management.  All Rights Reserved.
+                © 2016 Dent Asset Management.  All Rights Reserved.
                 <squarespace:navigation navigationId="footerNav" template="navigation-footer" />
                 <div class="footer-social">
                   <a href="http://www.linkedin.com/pub/fred-dent-cfa/1/962/359"><img src="/assets/linkedin.svg"></a>
-                  <a href="https://twitter.com/DentGroup"><img src="/assets/twitter.svg"></a>
                   <a href="/blog?format=rss"><img src="/assets/rss.svg"></a>
                 </div>
               </div>

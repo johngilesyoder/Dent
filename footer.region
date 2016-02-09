@@ -44,7 +44,7 @@
                 <squarespace:navigation navigationId="footerNav" template="navigation-footer" />
                 <div class="footer-social">
                   <a href="http://www.linkedin.com/pub/fred-dent-cfa/1/962/359"><img src="/assets/linkedin.svg"></a>
-                  <a href="https://www.facebook.com/dentgroup"><img src="/assets/facebook.svg"></a>
+                  <a href="https://www.facebook.com/dentgroup"><img src="/assets/facebook.svg?1"></a>
                   <a href="/blog?format=rss"><img src="/assets/rss.svg"></a>
                 </div>
               </div>

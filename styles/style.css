@@ -7243,7 +7243,7 @@ body {
   }
 }
 body {
-  padding-top: 95px;
+  padding-top: 180px;
 }
 .site-header {
   border-left: 0;
@@ -7562,6 +7562,9 @@ body {
   .page-title {
     font-size: 30px;
   }
+}
+.homepage {
+  padding-top: 0;
 }
 .homepage section {
   border-bottom: 4px solid #222222;

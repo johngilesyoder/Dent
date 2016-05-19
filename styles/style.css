@@ -7879,10 +7879,9 @@ body {
   .homepage .home-hero h2 {
     font-size: 48px;
     left: 0;
-    margin: 0;
-    width: 100%;
-    padding: 0 50px;
     bottom: 75px;
+    width: auto;
+    margin: 0 50px;
   }
   .homepage .home-who {
     background-image: none;
@@ -7941,10 +7940,9 @@ body {
   .homepage .home-hero h2 {
     font-size: 30px;
     left: 0;
-    margin: 0;
-    width: 100%;
-    padding: 0 30px;
     bottom: 35px;
+    width: auto;
+    margin: 0 50px;
   }
   .homepage .home-hero .real-clients {
     margin-top: 10px;

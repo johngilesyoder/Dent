@@ -7945,6 +7945,9 @@ body {
   .homepage .home-who iframe {
     width: 100%;
   }
+  .homepage .home-who .btn-contact {
+    margin-right: 0;
+  }
   .homepage .home-quote {
     height: 450px;
     background-position: 25% 30%;
@@ -8016,6 +8019,9 @@ body {
   }
   .homepage .home-who {
     border-bottom-color: #3B691D;
+  }
+  .homepage .home-who h2:after {
+    display: none !important;
   }
   .homepage .home-who .section-actions {
     margin-top: 30px;

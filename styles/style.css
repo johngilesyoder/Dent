@@ -7438,7 +7438,7 @@ body {
   margin-bottom: 0;
   z-index: 10;
   width: 100%;
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, 0.7);
 }
 .site-header.navbar-inverse a[href^="tel"] {
   color: #fff;

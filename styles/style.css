@@ -7917,6 +7917,9 @@ body {
   }
 }
 @media (max-width: 767px) {
+  .homepage {
+    padding-top: 100px;
+  }
   .homepage section .section-statement {
     font-size: 36px;
   }
@@ -8008,6 +8011,9 @@ body {
   }
 }
 @media (max-width: 480px) {
+  .homepage {
+    padding-top: 70px;
+  }
   .homepage section .section-statement {
     font-size: 30px;
   }

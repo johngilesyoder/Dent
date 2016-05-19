@@ -13,9 +13,9 @@
     <div id="wrap">
       <header id="header">
         {.if collection.homepage}
-          <nav id="primaryNav" class="navbar navbar-inverse navbar-home site-header" data-content-field="navigation-mainNav">
+          <nav id="primaryNav" class="navbar navbar-inverse navbar-home site-header navbar-fixed-top" data-content-field="navigation-mainNav">
         {.or}
-          <nav id="primaryNav" class="navbar navbar-inverse site-header" data-content-field="navigation-mainNav">
+          <nav id="primaryNav" class="navbar navbar-inverse site-header navbar-fixed-top" data-content-field="navigation-mainNav">
         {.end}
           <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->

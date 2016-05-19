@@ -7436,8 +7436,6 @@ body {
   border-top-color: #81BF58;
   color: #fff;
   margin-bottom: 0;
-  position: absolute;
-  top: 0;
   z-index: 10;
   width: 100%;
   background: rgba(0, 0, 0, 0.55);

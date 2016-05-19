@@ -7375,6 +7375,9 @@ body {
   }
 }
 @media (max-width: 767px) {
+  body {
+    padding-top: 130px;
+  }
   .site-header {
     margin-bottom: 30px;
   }
@@ -7411,6 +7414,9 @@ body {
   }
 }
 @media (max-width: 480px) {
+  body {
+    padding-top: 100px;
+  }
   .site-header {
     min-height: 65px;
   }

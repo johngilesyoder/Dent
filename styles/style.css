@@ -8027,7 +8027,9 @@ body {
     height: 350px;
   }
   .homepage .home-hero h2 {
-    bottom: 15px;
+    bottom: 0;
+    margin: 0;
+    border: 0;
   }
   .homepage .home-who {
     border-bottom-color: #3B691D;

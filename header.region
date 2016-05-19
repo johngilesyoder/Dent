@@ -12,7 +12,7 @@
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
     <div id="wrap">
       <header id="header">
-        <nav id="primaryNav" class="navbar navbar-default site-header" data-content-field="navigation-mainNav">
+        <nav id="primaryNav" class="navbar navbar-default navbar-fixed-top site-header" data-content-field="navigation-mainNav">
           <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">

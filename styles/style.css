@@ -7934,6 +7934,9 @@ body {
     display: block;
     margin-top: 15px;
   }
+  .homepage section .section-actions .btn-contact {
+    margin-right: 0;
+  }
   .homepage .home-hero {
     height: 450px;
   }
@@ -8001,9 +8004,6 @@ body {
     margin-top: 30px;
     text-align: center;
   }
-  .homepage .home-process .section-actions .btn-contact {
-    margin-right: 0;
-  }
   .homepage .home-process .actions-left {
     display: none;
   }
@@ -8039,6 +8039,9 @@ body {
   }
   .homepage .home-who .section-actions {
     margin-top: 30px;
+  }
+  .homepage .home-who .section-actions .btn-contact {
+    margin-right: 0;
   }
   .homepage .home-quote {
     background-image: none;

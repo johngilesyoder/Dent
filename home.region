@@ -2,8 +2,7 @@
 <main id="content" class="content" role="main" data-content-field="main-content">
   <section class="home-hero">
     <h2 class="hero-statement">
-      Your financial success is an ongoing process — <em>not a product</em>.
-      <span class="real-clients">* Real clients &mdash; <em>not stock photos</em></span>
+      Your financial success is a journey — <em>not a destination.</em>.
     </h2>
   </section>
   <section class="home-who">
@@ -11,9 +10,9 @@
       <div class="row">
         <div class="col-md-12 col-lg-9">
         <hgroup>
-          <h2 class="section-title">Who we are</h2>
-          <h3 class="section-statement">Plan For the Rest of Your Life<sup>&trade;</sup></h3>
-          <p>Call us now to the begin the process.</p>
+          <h2 class="section-title">Plan now, to relax later</h2>
+          <h3 class="section-statement">What is your plan to achieve your dreams &amp; goals?</h3>
+          <p>Call us now to begin the process of discovering what you want and to implement a plan to achieve it.</p>
         </hgroup>
         </div>
         <div class="col-md-8">
@@ -26,44 +25,32 @@
       </div>
     </div>
   </section>
-  <section class="home-quote">
-    <div class="quote">
-      <blockquote>
-        <p>“It’s not how much money you make, but how much money you keep and how hard it works for you.”</p>
-        <footer><cite title="Robert Kiyosaki">Robert Kiyosaki</cite></footer>
-      </blockquote>
-      <div class="quote-logo">
-        <img src="/assets/site-logo-inverted.svg" alt="Dent Asset Management">
-      </div>
-    </div>
-  </section>
   <section class="home-different">
     <div class="container">
       <hgroup>
         <h2 class="section-title">What makes us different?</h2>
-        <h3 class="section-statement">Does your advisor meet these standards?</h3>
       </hgroup>
       <table class="table table-comparison">
         <thead>
           <tr>
             <th>&nbsp;</th>
-            <th><img src="/assets/logo-mark-green.svg"></th>
-            <th>Other Advisor</th>
+            <th>Dent Asset</th>
+            <th>Other Advisors</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th>Dent is an independent investment advisor registered with the SEC. We have no broker-dealer affiliation.  We work for you.</th>
+            <th>Dent Asset Management is an independent investment advisor registered with the SEC. We have no broker-dealer affiliation. We work for you.</th>
             <td><img src="/assets/icon-checkmark-green.svg"></td>
             <td>?</td>
           </tr>
           <tr>
-            <th>We have accepted the legal fiduciary responsibility to put your interest first. Not all advisors are held to this standard.</th>
+            <th>Our firm has accepted the legal fiduciary responsibility to put your interest first. Not all advisors are held to this standard.</th>
             <td><img src="/assets/icon-checkmark-green.svg"></td>
             <td>?</td>
           </tr>
           <tr>
-            <th>We do not offer proprietary funds. This avoids a significant conflict of interest.</th>
+            <th>Our compensation is solely the fee agreed upon by you and us. We receive no commissions, hidden fees, or payment from any outside source.</th>
             <td><img src="/assets/icon-checkmark-green.svg"></td>
             <td>?</td>
           </tr>
@@ -73,27 +60,22 @@
             <td>?</td>
           </tr>
           <tr>
-            <th>Our team includes a Certified Financial Planner CFP®, a MBA, and a Chartered Financial Analyst CFA charter holder.</th>
+            <th>Our team includes a Certified Financial Planner CFP<sup>&reg;</sup>, an MBA, and a Chartered Financial Analyst CFA charter holder.</th>
             <td><img src="/assets/icon-checkmark-green.svg"></td>
             <td>?</td>
           </tr>
           <tr>
-            <th>Our team has more than 80 years combined experience in our serving four generations of families.</th>
+            <th>Our team has more than 80 years combined experience in serving four generations of families.</th>
             <td><img src="/assets/icon-checkmark-green.svg"></td>
             <td>?</td>
           </tr>
           <tr>
-            <th>We respond promptly to your questions.</th>
+            <th>We meet with you regularly for meaningful face-to-face strategy meetings.</th>
             <td><img src="/assets/icon-checkmark-green.svg"></td>
             <td>?</td>
           </tr>
           <tr>
-            <th>Our overall fees are equal to, or less than, those of an average mutual fund.</th>
-            <td><img src="/assets/icon-checkmark-green.svg"></td>
-            <td>?</td>
-          </tr>
-          <tr>
-            <th>We have a fee-only compensation structure. We are not compensated by commissions.</th>
+            <th>Our overall fees are less than or equal to those of an average mutual fund.</th>
             <td><img src="/assets/icon-checkmark-green.svg"></td>
             <td>?</td>
           </tr>
@@ -107,10 +89,9 @@
         <div class="col-md-6">
           <hgroup>
             <h2 class="section-title">Our invitation</h2>
-            <!-- <h3 class="section-statement">Our 13 Step Process to your Financial Security</h3> -->
           </hgroup>
           <p>
-            There is no such thing as a free dinner. We don't host fancy seminars at restaurants. Instead, we invite you into our office to have a face to face meeting to see if there is a fit between us. Contact us now to set up an appointment.  The coffee is on us. 
+            What would you like your relationship with your advisor to be? We invite you into our office to have a face-to-face meeting to see if there is a fit between us. Contact us now to set up an appointment. The coffee is on us.
           </p>
           <div class="section-actions actions-left">
             <a href="/contact-us/" class="btn btn-primary btn-contact">Contact us now</a>
@@ -119,64 +100,6 @@
         </div>
         <div class="col-md-5 col-md-offset-1">
           <img class="coffee-img" src="/assets/coffee.jpg?124">
-          <!-- <div class="napkin-carousel">
-            <div id="carousel-napkins" class="carousel slide" data-ride="carousel" data-interval="6500">
-              <div class="carousel-inner">
-                <div class="item active">
-                  <span class="caption">1. Your role</span>
-                  <img src="/assets/napkin-1.jpg">
-                </div>
-                <div class="item">
-                  <span class="caption">2. We listen to you</span>
-                  <img src="/assets/napkin-2.jpg">
-                </div>
-                <div class="item">
-                  <span class="caption">3. No B.S.</span>
-                  <img src="/assets/napkin-3.jpg">
-                </div>
-                <div class="item">
-                  <span class="caption">4. We analyze</span>
-                  <img src="/assets/napkin-4.jpg">
-                </div>
-                <div class="item">
-                  <span class="caption">5. We develop a personalized plan</span>
-                  <img src="/assets/napkin-5.jpg">
-                </div>
-                <div class="item">
-                  <span class="caption">6. No product to sell you</span>
-                  <img src="/assets/napkin-6.jpg">
-                </div>
-                <div class="item">
-                  <span class="caption">7. We adjust your plan as necessary</span>
-                  <img src="/assets/napkin-7.jpg">
-                </div>
-                <div class="item">
-                  <span class="caption">8. We keep it simple</span>
-                  <img src="/assets/napkin-8.jpg">
-                </div>
-                <div class="item">
-                  <span class="caption">9. We help to reduce the noise</span>
-                  <img src="/assets/napkin-9.jpg">
-                </div>
-                <div class="item">
-                  <span class="caption">10. We stay objective</span>
-                  <img src="/assets/napkin-10.jpg">
-                </div>
-                <div class="item">
-                  <span class="caption">11. We don't speculate</span>
-                  <img src="/assets/napkin-11.jpg">
-                </div>
-                <div class="item">
-                  <span class="caption">12. We invest with you</span>
-                  <img src="/assets/napkin-12.jpg">
-                </div>
-                <div class="item">
-                  <span class="caption">13. Lather, rinse, repeat</span>
-                  <img src="/assets/napkin-13.jpg">
-                </div>
-              </div>
-            </div>
-          </div> -->
           <div class="section-actions actions-right">
             <a href="/contact-us/" class="btn btn-primary btn-contact">Contact us now</a>
             <span class="callout-phone">or call us at <strong>{websiteSettings.contactPhoneNumber}</strong></span>

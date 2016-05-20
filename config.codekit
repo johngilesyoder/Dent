@@ -79,17 +79,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/hero-bg.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 396011,
-		"inputAbbreviatedPath": "\/assets\/hero-bg.png",
-		"outputAbbreviatedPath": "\/assets\/hero-bg.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/logo-share.png": {
 		"fileType": 32768,
 		"ignore": 0,

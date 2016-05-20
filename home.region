@@ -106,10 +106,11 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <iframe scrolling="no" frameborder="0" allowtransparency="true" style="min-width:275px;max-width:99%;min-height:260px;max-height:100%;overflow:hidden;position:relative;border:none;margin:8px;height:260px;width:100%;" src="//standard.vestorly.com/embed?group_id=5720bdcc6e1afc00140005f6&amp;advisor_id=dent-1&amp;t=1463705473958&amp;embed_type=carousel&amp;skip=0&amp;limit=12&amp;animation=fade"></iframe>
-        </div>
+      <div class="vestorly-content">
+        <hgroup>
+          <h2 class="section-title">Our invitation</h2>
+        </hgroup>
+        <iframe scrolling="no" frameborder="0" allowtransparency="true" style="min-width:275px;max-width:99%;min-height:260px;max-height:100%;overflow:hidden;position:relative;border:none;margin:8px;height:260px;width:100%;" src="//standard.vestorly.com/embed?group_id=5720bdcc6e1afc00140005f6&amp;advisor_id=dent-1&amp;t=1463705473958&amp;embed_type=carousel&amp;skip=0&amp;limit=12&amp;animation=fade"></iframe>
       </div>
     </div>
   </section>

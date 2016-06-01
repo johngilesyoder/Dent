@@ -7001,13 +7001,13 @@ a[href^="tel"] {
 @media (min-width: 768px) {
   .site-footer .address-wrapper {
     float: left;
-    width: 66.66666667%;
+    width: 33.33333333%;
   }
 }
 @media (min-width: 992px) {
   .site-footer .address-wrapper {
     float: left;
-    width: 33.33333333%;
+    width: 16.66666667%;
   }
 }
 .site-footer address {
@@ -7022,13 +7022,13 @@ a[href^="tel"] {
 @media (min-width: 768px) {
   .site-footer .hours-wrapper {
     float: left;
-    width: 25%;
+    width: 58.33333333%;
   }
 }
 @media (min-width: 992px) {
   .site-footer .hours-wrapper {
     float: left;
-    width: 16.66666667%;
+    width: 33.33333333%;
   }
 }
 .site-footer .download-wrapper {

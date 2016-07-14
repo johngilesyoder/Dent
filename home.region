@@ -16,7 +16,8 @@
         </hgroup>
         </div>
         <div class="col-md-8">
-          <iframe src="https://player.vimeo.com/video/147452700?title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <img src="/assets/group-shot.jpg">
+          <!-- <iframe src="https://player.vimeo.com/video/147452700?title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
           <div class="section-actions">
             <a href="/contact-us/" class="btn btn-primary btn-contact">Contact us now</a>
             <span class="callout-phone">or call us at <strong>{websiteSettings.contactPhoneNumber}</strong></span>

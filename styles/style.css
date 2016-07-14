@@ -7680,8 +7680,10 @@ body {
 .homepage .home-who .section-actions {
   margin-top: 40px;
 }
-.homepage .home-who iframe {
+.homepage .home-who iframe,
+.homepage .home-who .group-shot {
   border: 5px solid #333;
+  width: 500px;
 }
 .homepage .home-quote {
   height: 700px;

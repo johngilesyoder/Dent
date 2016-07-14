@@ -7880,9 +7880,9 @@ body {
   .homepage .home-who {
     background-image: none;
   }
-  .homepage .home-who iframe {
+  .homepage .home-who iframe,
+  .homepage .home-who .group-shot {
     width: 100%;
-    height: 400px;
   }
   .homepage .home-quote {
     height: 550px;
@@ -7948,7 +7948,8 @@ body {
     background-image: none;
     padding: 30px 0;
   }
-  .homepage .home-who iframe {
+  .homepage .home-who iframe,
+  .homepage .home-who .group-shot {
     width: 100%;
   }
   .homepage .home-who .btn-contact {

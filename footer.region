@@ -14,7 +14,7 @@
                 301 Main St, Ste. 1502<br>
                 Baton Rouge, LA 70801
               </address>
-              Phone: (225) 922-9955<br> 
+              Phone: (225) 922-9955<br>
               Facsimile: (225) 612-6644
             </div>
             <div class="hours-wrapper">
@@ -24,7 +24,7 @@
             </div>
             <div class="download-wrapper">
               <div class="download-pdf">
-                <a href="/assets/2016ADVCombined.pdf">Download our SEC ADV Disclosure Brochure</a>
+                <a href="/assets/2016ADV2Combined.pdf">Download our SEC ADV Disclosure Brochure</a>
               </div>
             </div>
           </div>
@@ -63,6 +63,6 @@
 
     <!--Injection point for tracking scripts and user content from the code injection tab.-->
     {squarespace-footers}
-    
+
   </body>
-</html> 
+</html>

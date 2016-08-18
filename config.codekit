@@ -24,13 +24,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/group.jpg": {
+	"\/assets\/group-shot.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 57712,
-		"inputAbbreviatedPath": "\/assets\/group.jpg",
-		"outputAbbreviatedPath": "\/assets\/group.jpg",
+		"inputAbbreviatedPath": "\/assets\/group-shot.jpg",
+		"outputAbbreviatedPath": "\/assets\/group-shot.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

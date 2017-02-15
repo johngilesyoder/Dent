@@ -7827,6 +7827,11 @@ body {
   padding-top: 50px;
   border-top: 1px solid rgba(255, 255, 255, 0.25);
 }
+.homepage .home-process .video-content .sqs-block-video {
+  width: 50%;
+  clear: none;
+  display: inline-block;
+}
 @media (min-width: 1200px) and (max-width: 1350px) {
   .homepage .home-who {
     background-position: 180% 100%;

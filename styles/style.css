@@ -8088,6 +8088,15 @@ body {
     height: auto;
     width: 100%;
   }
+  .homepage .home-process .video-content {
+    margin-top: 30px;
+    padding-top: 30px;
+  }
+  .homepage .home-process .video-content .sqs-block-video {
+    width: 100%;
+    clear: both;
+    display: block;
+  }
 }
 .collection-layout-contact .location-info {
   font-size: 13px;

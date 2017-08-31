@@ -7,7 +7,7 @@
 		"uuidString": "EF4FF7B2-26DA-4D95-8D65-F652F40E527F"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25849",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -45,7 +45,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/coffee.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/facebook.svg": {
 		"ft": 2097152,
@@ -63,7 +65,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/favicon.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/group-shot.jpg": {
 		"ft": 16384,
@@ -71,7 +76,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/group-shot.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/hero-bg-2.jpg": {
 		"ft": 16384,
@@ -79,7 +86,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/hero-bg-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/hero-bg-3.jpg": {
 		"ft": 16384,
@@ -87,7 +96,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/hero-bg-3.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/hero-bg-4.jpg": {
 		"ft": 16384,
@@ -95,7 +106,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/hero-bg-4.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/hero-bg-5.jpg": {
 		"ft": 16384,
@@ -103,7 +116,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/hero-bg-5.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/hero-bg.jpg": {
 		"ft": 16384,
@@ -111,7 +126,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/hero-bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/hero-bg.png": {
 		"ft": 32768,
@@ -119,7 +136,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/hero-bg.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/icon-checkmark-green.svg": {
 		"ft": 2097152,
@@ -237,7 +257,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/logo-share.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/napkin-1.jpg": {
 		"ft": 16384,
@@ -245,7 +268,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/napkin-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/napkin-10.jpg": {
 		"ft": 16384,
@@ -253,7 +278,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/napkin-10.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/napkin-11.jpg": {
 		"ft": 16384,
@@ -261,7 +288,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/napkin-11.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/napkin-12.jpg": {
 		"ft": 16384,
@@ -269,7 +298,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/napkin-12.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/napkin-13.jpg": {
 		"ft": 16384,
@@ -277,7 +308,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/napkin-13.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/napkin-14.jpg": {
 		"ft": 16384,
@@ -285,7 +318,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/napkin-14.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/napkin-2.jpg": {
 		"ft": 16384,
@@ -293,7 +328,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/napkin-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/napkin-3.jpg": {
 		"ft": 16384,
@@ -301,7 +338,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/napkin-3.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/napkin-4.jpg": {
 		"ft": 16384,
@@ -309,7 +348,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/napkin-4.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/napkin-5.jpg": {
 		"ft": 16384,
@@ -317,7 +358,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/napkin-5.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/napkin-6.jpg": {
 		"ft": 16384,
@@ -325,7 +368,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/napkin-6.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/napkin-7.jpg": {
 		"ft": 16384,
@@ -333,7 +378,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/napkin-7.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/napkin-8.jpg": {
 		"ft": 16384,
@@ -341,7 +388,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/napkin-8.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/napkin-9.jpg": {
 		"ft": 16384,
@@ -349,7 +398,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/napkin-9.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/process-bg.jpg": {
 		"ft": 16384,
@@ -357,7 +408,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/process-bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/quote-bg.jpg": {
 		"ft": 16384,
@@ -365,7 +418,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/quote-bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/readme.md": {
 		"cS": 0,
@@ -401,7 +456,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/site-logo-inverted.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/site-logo-inverted.svg": {
 		"ft": 2097152,
@@ -429,7 +487,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/team-bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/twitter.svg": {
 		"ft": 2097152,
@@ -447,7 +507,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/who-bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/who-bg.png": {
 		"ft": 32768,
@@ -455,7 +517,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/who-bg.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/blocks\/navigation-footer.block": {
 		"ft": 8192,
@@ -2943,6 +3008,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -3143,6 +3212,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -3220,6 +3293,10 @@
 			"optionString": ""
 			},
 		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -3419,6 +3496,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -3470,6 +3551,10 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -3564,6 +3649,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -4010,7 +4099,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -4033,14 +4123,6 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
-		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -4103,7 +4185,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -4188,6 +4272,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
